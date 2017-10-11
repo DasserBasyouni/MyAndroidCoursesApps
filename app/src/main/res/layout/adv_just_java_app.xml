@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameET"
+            android:inputType="textCapWords"
+            android:imeOptions="actionDone"
+            android:hint="Name"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/toppings"
+            style="@style/TextView"/>
+
+        <CheckBox
+            android:id="@+id/WCcheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="24sp"
+            android:text="@string/whipped_cream"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/CcheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:paddingLeft="24sp"
+            android:text="@string/chocolate"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/TextView"
+            android:text="@string/quantity" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/adv_inc_btn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="adv_Inc"
+                android:text="+" />
+
+            <TextView
+                android:id="@+id/adv_quantity_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/adv_dec_btn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:enabled="false"
+                android:onClick="adv_Dec"
+                android:text="-" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/order_summary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/adv_order_summary_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#d6d6d6"
+            android:padding="4dp"
+            android:paddingTop="16dp"
+            android:text="$0.00"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/adv_thank_you_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="adv_OrderSummary"
+            android:text="@string/order"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

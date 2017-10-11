@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              tools:context=".OldClasses.C1Lesson1"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#E0E0E0"
+    >
+
+    <!--asdasd-->
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:background="@android:color/holo_red_light"
+        android:onClick="OpenHBDapp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView2"
+            android:layout_weight="0.18"
+            android:src="@drawable/m_ic_android"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/happy_birthday_apk"
+            android:id="@+id/textView5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_toEndOf="@+id/imageView2"
+            android:paddingLeft="16dp"
+        />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_more_app_found"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#757575"
+        android:stateListAnimator="@android:anim/fade_in"
+        android:paddingTop="10dp"/>
+
+</LinearLayout>

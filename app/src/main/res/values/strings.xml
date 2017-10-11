@@ -1,0 +1,150 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Google Android Courses</string>
+    <string name="action_settings">Settings</string>
+    <string name="android_developing_comes_to_life">Android Developing Comes to Life !!</string>
+    <string name="C1_android_development_for_beginners">C1: Android Development for Beginners</string>
+    <string name="lesson_one">Lesson One Apps</string>
+    <string name="lesson_two">Lesson Two Apps</string>
+    <string name="lesson_three">Lesson Three Apps</string>
+    <string name="lesson_four">Lesson Four Apps</string>
+    <string name="lesson_five">Lesson Five Apps</string>
+    <string name="lesson_six">Lesson Six Apps</string>
+    <string name="no_more_app_found">no more app found</string>
+    <string name="also_here_no_app_found">Also Here No App Found</string>
+    <string name="xd">xD</string>
+    <string name="happy_birthday_apk">Happy Birthday app</string>
+    <string name="happy_birthday_omy">Happy Birthday, Omy</string>
+    <string name="from_dasser">From, Dasser</string>
+    <string name="just_java">Just Java</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="order">Order</string>
+    <string name="title_activity_main2_activitydasser">Main2Activitydasser</string>
+    <string name="order_summary">ORDER SUMMARY</string>
+    <string name="quantity_number">%d</string>
+    <string name="title_activity_text">TextActivity</string>
+    <string name="court_counter">Court Counter</string>
+    <string name="title_activity_court_counter">Court Counter</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="reset">Reset</string>
+    <string name="free_throw">Free Throw</string>
+    <string name="plus_three_point">+3 Point</string>
+    <string name="plus_two_points">+2 Points</string>
+    <string name="price">PRICE</string>
+    <string name="adv">ADVANCED</string>
+    <string name="cookies">Cookies</string>
+    <string name="menu">Menu</string>
+    <string name="whipped_cream">Whipped cream</string>
+    <string name="toppings">TOPPINGS</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="sun_shine">SunShine</string>
+    <string name="c2_developing_android_apps">C2: Developing Android Apps</string>
+    <string name="vl2">v.l2</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <string name="pref_location">Location</string>
+    <string name="pref_location_key">94043</string>
+    <string name="pref_location_default">94043</string>
+    <string name="pref_units_key">Metric</string>
+    <string name="pref_temp_default">Metric</string>
+    <string name="action_view_location">View Location</string>
+    <string name="action_share">Share</string>
+    <string name="sort_by">Sort By</string>
+    <string name="pref_units_imperial">Imperial</string>
+    <string name="pref_units_metric">Metric</string>
+    <string-array name="temp">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+
+
+    <!-- ........................................strings for Shunshine_L8............................................ -->
+    <!-- Date label when displaying today's weather forecast [CHAR LIMIT=20] -->
+    <string name="today">Today</string>
+
+    <!-- Date label when displaying tomorrow's weather forecast [CHAR LIMIT=20] -->
+    <string name="tomorrow">Tomorrow</string>
+
+    <!-- Date format for displaying day of week and date (i.e. Mon Jun 1) [CHAR LIMIT=20] -->
+    <string name="format_full_friendly_date"><xliff:g id="day">%1$s</xliff:g>, <xliff:g id="date">%2$s</xliff:g></string>
+
+    <!-- Temperature formats in degrees [CHAR LIMIT=NONE] -->
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+
+    <!-- Windspeed formats -->
+    <!-- Wind in mph [CHAR LIMIT=25] -->
+    <string name="format_wind_mph">Wind: <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g></string>
+
+    <!-- Wind in kph [CHAR LIMIT=25] -->
+    <string name="format_wind_kmh">Wind: <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g></string>
+
+    <!-- Pressure format CHAR LIMIT=25] -->
+    <string name="format_pressure">Pressure: <xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+
+    <!-- Humidity format CHAR LIMIT=25]-->
+    <string name="format_humidity">Humidity: <xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+
+
+    <string name="ss_app_name">Sunshine</string>
+
+
+    <!-- ss9 -->
+    <string name="ss9_sync_account_type">sunshine.example.com</string>
+    <string name="ss9_content_authority">unitedapps.com.googleandroidcourses</string>
+    <string name="trailers">Trailers:</string>
+    <string name="trailer_space">Trailer </string>
+
+    <string name="pm2_sync_account_type">pop.movies2.com</string>
+    <string name="pm2_content_authority">unitedapps.com.googleandroidcourses.pm2</string>
+    <string name="pm2_app_name">Popular Movies v2</string>
+    <string name="pm1_app_name">Popular Movies v1</string>
+    <string name="pm2_savedSortMode">0</string>
+    <string name="request_activity_updates">Request Updates</string>
+    <string name="remove_activity_updates">Disconnect Updates</string>
+    <string name="detected_activities_title">Detected Activities</string>
+    <string name="add_geofences">Add Geofence</string>
+    <string name="unknown_geofence_error">Unknow Geofence Error</string>
+    <string name="geofence_not_available">Geofence Not Avaliable</string>
+    <string name="geofence_too_many_geofences">Too Many Geofences</string>
+    <string name="geofence_too_many_pending_intents">Too Many Pending Intents</string>
+    <string name="geofence_transition_invalid_type">Geofence Transition Invalid Type</string>
+    <string name="geofence_transition_entered">Geofence Transition Entered</string>
+    <string name="geofence_transition_exited">Geofence Transition Exited</string>
+    <string name="unknown_geofence_transition">Unknown Geofence Transition</string>
+    <string name="geofence_transition_notification_text">Click notification to returrn to app</string>
+
+    <string name="ab_mca_from_freepik_com">From freepik.com</string>
+    <string name="ab_mca_quote"><![CDATA[Love Ur\nWork &\nBe The\nBest]]></string>
+    <string name="ab_bdc_quote">Lifelong Learning</string>
+    <string name="ab_bdc_business_name">Udacity</string>
+    <string name="ab_bdc_business_location">Sebastian Thrun World Economic Forum 2013</string>
+    <string name="ab_bdc_business_description">Udacity is a for-profit educational organization founded by Sebastian Thrun, David Stavens, and Mike Sokolsky offering massive open online courses.</string>
+    <string name="ab_bdc_business_contact_link">Contact us at <a href="https://www.udacity.com/contact">Udacity.com/Contact</a></string>
+    <string name="ab_bdc_business_contact_site">Our Website <a href="https://www.udacity.com">Udacity.com</a></string>
+
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="ab_ma_app_name">Miwok</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="ab_ma_category_phrases">Phrases</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="ab_ma_category_colors">Colors</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="ab_ma_category_numbers">Numbers</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="ab_ma_category_family">Family Members</string>
+    <string name="ab_rc_app_name">Report Card</string>
+
+
+    <string name="gls_l1_app_name">Location 1</string>
+    <string name="gls_l2_1_app_name">Location 2_1</string>
+    <string name="gls_gf_app_name">Geofence App</string>
+    <string name="gls_ar_app_name">Activity Recognition</string>
+</resources>

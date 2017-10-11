@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:id="@+id/spinnerText"
+                 android:singleLine="true"
+                 android:textSize="16sp"
+                 android:padding="6dp"
+                 android:background="@color/pm2_toolbar"
+                 android:textColor="@color/cardview_light_background"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:ellipsize="marquee" />

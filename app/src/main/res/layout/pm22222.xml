@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/pm2_thumbnail_iv"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/after_cookie"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/pm2_rekeaseDate_tv_wt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015"
+        android:textSize="24sp"
+        android:layout_marginTop="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/pm2_runtime_tv"
+        android:layout_alignStart="@+id/pm2_runtime_tv" />
+
+    <TextView
+        android:id="@+id/pm2_userRate_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.1/10"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/pm2_rekeaseDate_tv_wt"
+        app:layout_constraintRight_toRightOf="@+id/pm2_rekeaseDate_tv_wt"
+        app:layout_constraintTop_toBottomOf="@+id/pm2_rekeaseDate_tv_wt"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:layout_below="@+id/pm2_runtime_tv"
+        android:layout_toRightOf="@+id/pm2_thumbnail_iv"
+        android:layout_toEndOf="@+id/pm2_thumbnail_iv"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/pm2_runtime_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textSize="16sp"
+        android:text="120min"
+        app:layout_constraintLeft_toLeftOf="@+id/pm2_rekeaseDate_tv_wt"
+        app:layout_constraintTop_toBottomOf="@+id/pm2_rekeaseDate_tv_wt"
+        android:layout_below="@+id/pm2_rekeaseDate_tv_wt"
+        android:layout_alignLeft="@+id/pm2_userRate_tv"
+        android:layout_alignStart="@+id/pm2_userRate_tv" />
+
+    <Button
+        android:id="@+id/pm2_fav_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="@color/pm2_colorPrimaryLight"
+        android:text="Make As\nFavorite"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@+id/pm2_userRate_tv"
+        app:layout_constraintTop_toBottomOf="@+id/pm2_userRate_tv"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_below="@+id/pm2_userRate_tv"
+        android:layout_alignLeft="@+id/pm2_userRate_tv"
+        android:layout_alignStart="@+id/pm2_userRate_tv" />
+
+    <TextView
+        android:id="@+id/pm2_plotSynopsis_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="overview"
+        android:layout_below="@+id/pm2_thumbnail_iv"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trailers"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/frameLayout"
+        android:layout_alignLeft="@+id/pm2_thumbnail_iv"
+        android:layout_alignStart="@+id/pm2_thumbnail_iv"
+        android:id="@+id/textView" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/pm2_lineColor"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pm2_plotSynopsis_tv"
+        android:layout_below="@+id/pm2_plotSynopsis_tv"
+        android:layout_centerHorizontal="true"/>
+
+    <ListView
+        android:id="@+id/pm2_trailer_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pm2_plotSynopsis_tv"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignRight="@+id/pm2_plotSynopsis_tv"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="13dp" />
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<resources>>
+    <style name="SettingsTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/m_colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/m_colorPrimaryDark</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryDark">@color/m_colorPrimary</item>
+        <item name="colorPrimary">@color/m_colorPrimary</item>
+        <item name="colorAccent">@color/m_colorAccent</item>
+        <item name="alertDialogTheme">@style/AppCompatAlertDialogStyle</item>
+        <item name="android:colorPrimaryDark">@color/m_colorPrimaryDark</item>
+        <item name="android:colorPrimary">@color/m_colorPrimary</item>
+        <item name="android:colorAccent">@color/m_colorAccent</item>
+        <item name="android:alertDialogTheme">@style/AppCompatAlertDialogStyle</item>
+        <item name="android:itemBackground">@color/m_separatorColor</item>
+        <item name="itemBackground">@color/m_separatorColor</item>
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextApearance</item>
+        <item name="android:statusBarColor">@color/m_colorPrimary</item>
+        <item name="android:navigationBarColor">@color/m_colorPrimary</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/m_colorPrimary</item>
+        <item name="colorPrimary">@color/m_colorPrimaryDark</item>
+        <item name="colorAccent">@color/m_colorAccent</item>
+        <item name="android:statusBarColor">@color/m_colorPrimary</item>
+        <item name="android:navigationBarColor">@color/m_colorPrimary</item>
+    </style>
+
+    <!-- Android Development for Beginners Apps Themes. -->
+    <style name="adb_hbc_appTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/ab_ui_hbc_colorPrimaryDark</item>
+        <item name="colorPrimary">@color/ab_ui_hbc_colorPrimary</item>
+        <item name="colorAccent">@color/ab_ui_hbc_colorAccent</item>
+        <item name="android:statusBarColor">@color/ab_ui_hbc_colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/ab_ui_hbc_colorPrimaryDark</item>
+    </style>
+    <style
+        name="adb_CourtCounterStyle" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorButtonNormal">#FF9800</item>
+        <item name="colorPrimaryDark">#EF6C00</item>
+
+        <item name="android:statusBarColor">#EF6C00</item>
+        <item name="android:navigationBarColor">#EF6C00</item>
+    </style>
+    <style
+        name="adb_c_appTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/ab_ui_hbc_colorPrimaryDark</item>
+        <item name="colorPrimary">@color/ab_ui_hbc_colorPrimary</item>
+        <item name="colorAccent">@color/ab_ui_hbc_colorAccent</item>
+        <item name="android:statusBarColor">@color/ab_ui_hbc_colorPrimaryDark</item>
+        <item name="android:navigationBarColor">#B388FF</item>
+    </style>
+
+    <!-- Android Basics: User Interface Apps Themes. -->
+    <style
+        name="ab_ui_mca_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/ab_mca_colorPrimaryDark</item>
+        <item name="colorPrimary">@color/ab_mca_colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/ab_mca_colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/ab_mca_colorPrimaryDark</item>
+    </style>
+
+    <!-- Android Basics: Multi-screen Apps Themes. -->
+    <style
+        name="ab_ma_m_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ab_ma_primary_color</item>
+        <item name="colorPrimaryDark">@color/ab_ma_primary_dark_color</item>
+        <item name="android:statusBarColor">@color/ab_ma_primary_dark_color</item>
+        <item name="android:navigationBarColor">@color/ab_ma_primary_dark_color</item>
+    </style>
+    <style
+        name="ab_ma_rc_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ab_ma_primary_color</item>
+        <item name="colorPrimaryDark">@color/ab_ma_primary_dark_color</item>
+        <item name="android:statusBarColor">@color/ab_ma_primary_dark_color</item>
+        <item name="android:navigationBarColor">@color/ab_ma_primary_dark_color</item>
+    </style>
+
+    <!-- Developing Android Apps Apps Themes. -->
+    <style name="daa_ss_ForecastTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Sunshine.NoTitle</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="ActionBar.Solid.Sunshine.NoTitle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/ic_logo</item>
+    </style>
+
+</resources>

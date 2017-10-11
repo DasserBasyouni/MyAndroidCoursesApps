@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ss8_fragment_detail" type="layout">@layout/ss8_fragment_detail_wide</item>
+    <item name="ss9_fragment_detail" type="layout">@layout/ss9_fragment_detail_wide</item>
+</resources>

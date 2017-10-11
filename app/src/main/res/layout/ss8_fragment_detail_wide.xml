@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/ss8_detail_day_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuesday"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="24sp"
+                android:textColor="@color/cardview_dark_background"/>
+            <!-- Header: Day, Date -->
+
+
+            <TextView
+                android:id="@+id/ss8_detail_date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="June 24"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#646464"/>
+
+        </LinearLayout>
+
+        <!-- Main content: high, low, art, weather state -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ss8_detail_high_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="96sp"
+                android:text="14"
+                />
+
+            <TextView
+                android:id="@+id/ss8_detail_low_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:textSize="48sp"
+                android:layout_marginBottom="16dp"
+                android:text="14"
+                tools:targetApi="jelly_bean"
+                />
+
+            <!-- Humidity, wind, pressure -->
+            <TextView
+                android:id="@+id/ss8_detail_humidity_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="humidity: 0%"
+                style="@style/LargeCondensed"/>
+
+            <TextView
+                android:id="@+id/ss8_detail_pressure_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="humidity: 0%"
+                style="@style/LargeCondensed"/>
+
+            <TextView
+                android:id="@+id/ss8_detail_wind_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="humidity: 0%"
+                style="@style/LargeCondensed"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ss8_detail_icon"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/ss8_detail_forecast_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="#646464"
+                android:fontFamily="sans-serif-condensed"
+                android:text="clear"/>
+        </LinearLayout>
+
+        <unitedapps.com.googleandroidcourses.Courses.DevelopingAndroidApps.Sunshine_L8.ss8_WindView
+            android:id="@+id/ss8_myView"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:background="#ffffff"/>
+    </LinearLayout>
+</ScrollView>

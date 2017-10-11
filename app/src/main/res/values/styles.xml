@@ -1,0 +1,150 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Main App Theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/m_colorPrimary</item>
+        <item name="colorPrimary">@color/m_colorPrimaryDark</item>
+        <item name="colorAccent">@color/m_colorAccent</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/m_colorPrimary</item>
+        <item name="colorPrimary">@color/m_colorPrimary</item>
+        <item name="colorAccent">@color/m_colorAccent</item>
+        <item name="alertDialogTheme">@style/AppCompatAlertDialogStyle</item>
+        <item name="android:alertDialogTheme">@style/AppCompatAlertDialogStyle</item>
+        <item name="android:itemBackground">@color/m_separatorColor</item>
+        <item name="itemBackground">@color/m_separatorColor</item>
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextApearance</item>
+    </style>
+
+    <style name="myCustomMenuTextApearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/m_colorAccent</item>
+    </style>
+
+    <style name="TextAppearance">
+        <item name="fontFamily">@font/m_app_font</item>
+    </style>
+
+    <!-- Android Development for Beginners Apps Themes. -->
+    <style name="adb_hbc_appTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/ab_ui_hbc_colorPrimaryDark</item>
+        <item name="colorPrimary">@color/ab_ui_hbc_colorPrimary</item>
+        <item name="colorAccent">@color/ab_ui_hbc_colorAccent</item>
+    </style>
+    <style
+        name="adb_CourtCounterStyle" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#FF9800</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#FF9800</item>
+        <item name="colorPrimaryDark">#EF6C00</item>
+    </style>
+    <style
+        name="adb_c_appTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/ab_ui_hbc_colorPrimaryDark</item>
+        <item name="colorPrimary">@color/ab_ui_hbc_colorPrimary</item>
+        <item name="colorAccent">@color/ab_ui_hbc_colorAccent</item>
+    </style>
+
+    <!-- Android Basics: User Interface Apps Themes. -->
+    <style
+        name="ab_ui_mca_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/ab_mca_colorPrimaryDark</item>
+        <item name="colorPrimary">@color/ab_mca_colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Android Basics: Multi-screen Apps Themes. -->
+    <style
+        name="ab_ma_m_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ab_ma_primary_color</item>
+        <item name="colorPrimaryDark">@color/ab_ma_primary_dark_color</item>
+    </style>
+    <style
+        name="ab_ma_CategoryStyle">
+        <!-- Style for a category of vocabulary words -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ab_ma_list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style
+        name="ab_ma_rc_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ab_ma_primary_color</item>
+        <item name="colorPrimaryDark">@color/ab_ma_primary_dark_color</item>
+    </style>
+
+    <!-- Developing Android Apps Apps Themes. -->
+    <style name="daa_ss_ForecastTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Sunshine.NoTitle</item>
+    </style>
+
+    <style name="ActionBar.Solid.Sunshine.NoTitle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/ic_logo</item>
+    </style>
+
+    <!-- Style for forecast listview -->
+    <style name="ForecastListStyle">
+        <!-- Here it's a stub.  In screens of sufficient width, this style includes modifications
+        for two-pane layout -->
+    </style>
+
+    <style name="SettingsTheme" parent="AppTheme">
+    </style>
+
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppThemeNoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <style name="TextView" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <style name="LargeWhiteCondensed">
+        <item name="android:textColor">@color/cardview_light_background</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-condensed</item>
+    </style>
+
+    <style name="LargeCondensed">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-condensed</item>
+    </style>
+
+
+    <style name="pm2_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/cardview_dark_background</item>
+        <item name="colorPrimary">@color/pm2_toolbar</item>
+        <item name="colorAccent">@color/cardview_light_background</item>
+    </style>
+
+</resources>

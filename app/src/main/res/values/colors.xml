@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff1ca8f4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey">#cccccc</color>
+    <color name="sunshine_light_blue">#ff64c2f4</color>
+
+    <color name="ab_ui_hbc_colorPrimary">#ff1ca8f4</color>
+    <color name="ab_ui_hbc_colorPrimaryDark">#0288D1</color>
+    <color name="ab_ui_hbc_colorAccent">#FF4081</color>
+
+    <color name="pm2_colorPrimary">#009688</color>
+    <color name="pm2_toolbar">#424242</color>
+    <color name="pm2_colorPrimaryLight">#b2dfdb</color>
+    <color name="pm2_lineColor">#616161 </color>
+
+    <color name="m_colorPrimaryDark">#303F9F</color>
+    <color name="m_colorPrimary">#1C1038</color>
+    <color name="m_colorAccent">#FF4081</color>
+
+    <color name="m_colorBackground">#241445</color>
+    <color name="m_separatorColor">#18102C</color>
+
+    <color name="m_pink">#FF308E</color>
+    <color name="m_orange">#FA9301</color>
+    <color name="m_yellow">#F8D411</color>
+    <color name="m_blue">#20CBF3</color>
+    <color name="m_purple">#6F26FA</color>
+    <color name="m_green">#49CC56</color>
+    <color name="m_white">#FFFFFF</color>
+
+    <color name="ab_mca_colorPrimary">#C0B8AD</color>
+    <color name="ab_mca_colorPrimaryDark">#a0998e</color>
+
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="ab_ma_primary_color">#4A312A</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="ab_ma_primary_dark_color">#2F1D1A</color>
+
+    <!-- Background color for app -->
+    <color name="ab_ma_tan_background">#FFF7DA</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="ab_ma_category_numbers">#FD8E09</color>
+
+    <!-- Background color for the family members category -->
+    <color name="ab_ma_category_family">#379237</color>
+
+    <!-- Background color for the colors category -->
+    <color name="ab_ma_category_colors">#8800A0</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="ab_ma_category_phrases">#16AFCA</color>
+
+</resources>

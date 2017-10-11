@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="courses.omy.dasser.androidcousres.MainActivity">
+    <item
+        android:id="@+id/pm1_sort_spinner"
+        android:title="@string/sort_by"
+        app:actionViewClass="android.widget.Spinner"
+        android:background="#ff00"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pm1_sort_spinner_list_item">
+        <item>Most Popular</item>
+        <item>Top Rated</item>
+    </string-array>
+    <string-array name="pm2_sort_spinner_list_item">
+        <item>Most Popular</item>
+        <item>Top Rated</item>
+        <item>My Favorites</item>
+    </string-array>
+
+    <declare-styleable name="CustomFont">
+        <attr name="fontFamily" format="string" />
+    </declare-styleable>
+</resources>
