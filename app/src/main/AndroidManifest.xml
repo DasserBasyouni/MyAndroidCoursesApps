@@ -173,7 +173,8 @@
 
         <activity
             android:name=".Courses.AndroidDevelopmentForBeginners.Sunshine"
-            android:label="SunShine" />
+            android:label="SunShine"
+            tools:ignore="InnerclassSeparator" />
 
 
         <activity
@@ -301,10 +302,12 @@
 
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L2.Sunshine_L2"
-            android:label="SunShine vl2" />
+            android:label="SunShine vl2"
+            tools:ignore="InnerclassSeparator" />
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L3.Sunshine_L3"
-            android:label="SunShine v3">
+            android:label="SunShine v3"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <data android:scheme="geo" />
@@ -313,17 +316,20 @@
         </activity>
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L3.DetailsActivity"
-            android:label="DetailsActivity" />
+            android:label="DetailsActivity"
+            tools:ignore="InnerclassSeparator" />
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L3.SettingsActivity"
             android:label="@string/title_activity_settings"
             android:parentActivityName=".Courses.DevelopingAndroidApps.Sunshine_L3.Sunshine_L3"
-            tools:targetApi="jelly_bean" />
+            tools:targetApi="jelly_bean"
+            tools:ignore="InnerclassSeparator" />
 
         <activity
             android:name=".Courses.DevelopingAndroidApps.PopularMovies_V1.pm1_MainActivity"
             android:icon="@drawable/ic_movie_white_24dp"
-            android:label="@string/pm1_app_name">
+            android:label="@string/pm1_app_name"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -334,11 +340,13 @@
             android:name=".Courses.DevelopingAndroidApps.PopularMovies_V1.pm1_DetailsActivity"
             android:icon="@drawable/ic_movie_white_24dp"
             android:label="Movie Details"
-            android:parentActivityName=".Courses.DevelopingAndroidApps.PopularMovies_V1.pm1_MainActivity" />
+            android:parentActivityName=".Courses.DevelopingAndroidApps.PopularMovies_V1.pm1_MainActivity"
+            tools:ignore="InnerclassSeparator,UnusedAttribute" />
 
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L5.Sunshine_L5"
-            android:label="SunShine v5">
+            android:label="SunShine v5"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <data android:scheme="geo" />
@@ -348,7 +356,8 @@
 
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L6.Sunshine_L6"
-            android:label="SunShine v3">
+            android:label="SunShine v3"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <data android:scheme="geo" />
@@ -357,18 +366,21 @@
         </activity>
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L6.ss6_DetailsActivity"
-            android:label="DetailsActivity" />
+            android:label="DetailsActivity"
+            tools:ignore="InnerclassSeparator" />
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L6.SettingsActivity"
             android:label="@string/title_activity_settings"
             android:parentActivityName=".Courses.DevelopingAndroidApps.Sunshine_L6.Sunshine_L6"
-            tools:targetApi="jelly_bean" />
+            tools:targetApi="jelly_bean"
+            tools:ignore="InnerclassSeparator" />
 
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L8.ss8_MainActivity"
             android:icon="@mipmap/ss_ic_launcher"
             android:label="SS 8"
-            android:theme="@style/daa_ss_ForecastTheme">
+            android:theme="@style/daa_ss_ForecastTheme"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -382,20 +394,23 @@
 
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L8.ss8_DetailsActivity"
-            android:label="DetailsActivity" />
+            android:label="DetailsActivity"
+            tools:ignore="InnerclassSeparator" />
 
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L8.ss8_SettingsActivity"
             android:label="@string/title_activity_settings"
             android:parentActivityName=".Courses.DevelopingAndroidApps.Sunshine_L9.ss9_MainActivity"
             android:theme="@style/SettingsTheme"
-            tools:targetApi="jelly_bean" />
+            tools:targetApi="jelly_bean"
+            tools:ignore="InnerclassSeparator" />
 
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L9.ss9_MainActivity"
             android:icon="@mipmap/ss_ic_launcher"
             android:label="SS 9"
-            android:theme="@style/daa_ss_ForecastTheme">
+            android:theme="@style/daa_ss_ForecastTheme"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -409,16 +424,20 @@
 
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L9.ss9_DetailsActivity"
-            android:label="DetailsActivity" />
+            android:label="DetailsActivity"
+            tools:ignore="InnerclassSeparator" />
 
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L9.ss9_SettingsActivity"
             android:label="@string/title_activity_settings"
             android:parentActivityName=".Courses.DevelopingAndroidApps.Sunshine_L9.ss9_MainActivity"
             android:theme="@style/SettingsTheme"
-            tools:targetApi="jelly_bean" />
+            tools:targetApi="jelly_bean"
+            tools:ignore="InnerclassSeparator" />
 
-        <service android:name="unitedapps.com.googleandroidcourses.Courses.DevelopingAndroidApps.Sunshine_L9.sync.ss9_Service">
+        <service
+            android:name="unitedapps.com.googleandroidcourses.Courses.DevelopingAndroidApps.Sunshine_L9.sync.ss9_Service"
+            tools:ignore="ExportedService,InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.accounts.AccountAuthenticator" />
             </intent-filter>
@@ -435,11 +454,13 @@
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L9.data.WeatherProvider"
             android:authorities="@string/ss9_content_authority"
             android:exported="false"
-            android:syncable="true" />
+            android:syncable="true"
+            tools:ignore="InnerclassSeparator" />
 
         <service
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L9.sync.ss9_SyncService"
-            android:exported="true">
+            android:exported="true"
+            tools:ignore="ExportedService,InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.content.SyncAdapter" />
             </intent-filter>
@@ -453,7 +474,8 @@
             android:icon="@drawable/ic_movie_white_24dp"
             android:label="@string/pm2_app_name"
 
-            android:theme="@style/pm2_AppTheme">
+            android:theme="@style/pm2_AppTheme"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -466,13 +488,17 @@
             android:icon="@drawable/ic_movie_white_24dp"
             android:label="Movie Details"
             android:parentActivityName=".Courses.DevelopingAndroidApps.PopularMovies_V2.pm2_MainActivity"
-            android:theme="@style/pm2_AppTheme" />
+            android:theme="@style/pm2_AppTheme"
+            tools:ignore="InnerclassSeparator,UnusedAttribute" />
 
         <provider
             android:name=".Courses.DevelopingAndroidApps.PopularMovies_V2.data.pm2_Provider"
-            android:authorities="unitedapps.com.googleandroidcourses.pm2" />
+            android:authorities="unitedapps.com.googleandroidcourses.pm2"
+            tools:ignore="ExportedContentProvider,InnerclassSeparator" />
 
-        <service android:name=".Courses.DevelopingAndroidApps.PopularMovies_V2.sync.pm2_Service">
+        <service
+            android:name=".Courses.DevelopingAndroidApps.PopularMovies_V2.sync.pm2_Service"
+            tools:ignore="ExportedService,InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.accounts.AccountAuthenticator" />
             </intent-filter>
@@ -484,7 +510,8 @@
 
         <service
             android:name=".Courses.DevelopingAndroidApps.PopularMovies_V2.sync.pm2_SyncService"
-            android:exported="true">
+            android:exported="true"
+            tools:ignore="ExportedService,InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.content.SyncAdapter" />
             </intent-filter>
@@ -496,7 +523,8 @@
         <activity
             android:name=".Courses.AppsLifecycle.ActivityLifecycle"
             android:theme="@style/adb_hbc_appTheme"
-            android:label="Android LifeCycle">
+            android:label="Android LifeCycle"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -507,7 +535,8 @@
         <activity
             android:name=".Courses.GoogleLocationService.Location1"
             android:label="@string/gls_l1_app_name"
-            android:theme="@style/adb_hbc_appTheme">
+            android:theme="@style/adb_hbc_appTheme"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -518,7 +547,8 @@
         <activity
             android:name=".Courses.GoogleLocationService.Location2_1"
             android:theme="@style/adb_hbc_appTheme"
-            android:label="@string/gls_l2_1_app_name">
+            android:label="@string/gls_l2_1_app_name"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -529,27 +559,30 @@
         <activity
             android:name=".Courses.GoogleLocationService.ActivityRecognition.ar_ActivityMain"
             android:theme="@style/adb_hbc_appTheme"
-            android:label="@string/gls_ar_app_name">
+            android:label="@string/gls_ar_app_name"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <service android:name=".Courses.GoogleLocationService.ActivityRecognition.ar_DetectedActivitiesIntentService" />
+        <service android:name=".Courses.GoogleLocationService.ActivityRecognition.ar_DetectedActivitiesIntentService"
+            tools:ignore="InnerclassSeparator" />
 
         <activity
             android:name=".Courses.GoogleLocationService.Geofencing.gf_ActivityMain"
             android:theme="@style/adb_hbc_appTheme"
-            android:label="@string/gls_gf_app_name">
+            android:label="@string/gls_gf_app_name"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <service android:name=".Courses.GoogleLocationService.Geofencing.gf_GeofenceTransitionsIntentService" />
+        <service android:name=".Courses.GoogleLocationService.Geofencing.gf_GeofenceTransitionsIntentService"
+            tools:ignore="InnerclassSeparator" />
 
     </application>
 </manifest>
