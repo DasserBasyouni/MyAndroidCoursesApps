@@ -1,8 +1,9 @@
 # MyAndroidCoursesApps
-This is just android app that include apps i created while my learning journey, feel free to use it in education purposes 
+This is just android app that include apps I created while my learning journey, feel free to use it in education purposes 
 
-Here are screenshot of app's first three stages of design and user interface
+Here are screenshot of app's second and third stages of design and user interface
  
+ <img src="/Screenshots/AppStages.png" width="720">
  
  # Screenshots Of Apps at Latest Versions
  Note: 
