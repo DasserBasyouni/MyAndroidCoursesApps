@@ -3,7 +3,7 @@ This is just android app that include apps I created while my learning journey, 
 
 Here are screenshot of app's second and third stages of design and user interface
  
- <img src="/Screenshots/AppStages.png" width="720">
+ <img src="/Screenshots/AppStages.png" width="1080">
  
  # Screenshots Of Apps at Latest Versions
  Note: 
