@@ -91,7 +91,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
-                    app:srcCompat="@drawable/court_counter"
+                    app:srcCompat="@drawable/m_ic_android"
                     />
 
                 <TextView
