@@ -179,7 +179,7 @@
 
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L1.MainActivity"
-            android:label="@string/ab_ma_app_name"
+            android:label="@string/ab_ma_m_app_name"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator" />
@@ -218,7 +218,7 @@
 
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L2.MainActivity"
-            android:label="@string/ab_ma_app_name"
+            android:label="@string/ab_ma_m_app_name"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator" />
@@ -263,7 +263,7 @@
 
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L4.MainActivity"
-            android:label="@string/ab_ma_app_name"
+            android:label="@string/ab_ma_m_app_name"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator" />
@@ -302,12 +302,12 @@
 
         <activity
             android:label="@string/ab_ma_mp_app_name"
-            android:name=".Courses.AndroidBasics.MultiscreenApps.MediaPlayer"
+            android:name=".Courses.AndroidBasics.MultiscreenApps.MediaPlayerApp"
             tools:ignore="InnerclassSeparator" />
 
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L5.MainActivity"
-            android:label="@string/ab_ma_app_name"
+            android:label="@string/ab_ma_m_app_name"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator" />

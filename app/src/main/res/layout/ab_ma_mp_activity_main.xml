@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
 
+    <Button
+        android:id="@+id/ab_ma_mp_play_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/ab_ma_mp_pause_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Experimental Features"
+        android:paddingTop="16dp"
+        style="@style/Base.TextAppearance.AppCompat.Headline"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume"
+        android:paddingTop="10dp"
+        android:paddingBottom="4dp"
+        style="@style/Base.TextAppearance.AppCompat.Subhead"/>
+
+    <SeekBar
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="4"
+        android:id="@+id/ab_ma_mp_volume_sb"/>
+
+    <Button
+        android:id="@+id/ab_ma_mp_skip_to_middle_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skip to song's middle"
+        android:layout_marginTop="10dp"/>
 </LinearLayout>
