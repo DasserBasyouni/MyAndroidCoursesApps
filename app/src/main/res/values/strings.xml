@@ -127,7 +127,7 @@
 
 
     <!-- Title for the application. [CHAR LIMIT=12] -->
-    <string name="ab_ma_app_name">Miwok</string>
+    <string name="ab_ma_m_app_name">Miwok</string>
 
     <!-- Category name for phrases [CHAR LIMIT=20] -->
     <string name="ab_ma_category_phrases">Phrases</string>

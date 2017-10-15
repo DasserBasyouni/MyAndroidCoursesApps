@@ -161,11 +161,11 @@ public class CoursesList extends Fragment {
 
         ExpandingItem item1 = expandingList.createNewItem(R.layout.expanding_layout);
         ((TextView) item1.findViewById(R.id.title)).setText("Android Basics: Multiscreen Apps");
-        item1.createSubItems(4);
+        item1.createSubItems(6);
 
         View subItemZero00 = item1.getSubItemView(0);
         TextView tv00 = subItemZero00.findViewById(R.id.sub_title);
-        tv00.setText(getString(R.string.ab_ma_app_name) + " (L1)");
+        tv00.setText(getString(R.string.ab_ma_m_app_name) + " (L1)");
         tv00.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -177,7 +177,7 @@ public class CoursesList extends Fragment {
 
         View subItemOne01 = item1.getSubItemView(1);
         TextView tv01 = subItemOne01.findViewById(R.id.sub_title);
-        tv01.setText(getString(R.string.ab_ma_app_name) + " (L2)");
+        tv01.setText(getString(R.string.ab_ma_m_app_name) + " (L2)");
         tv01.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -201,12 +201,36 @@ public class CoursesList extends Fragment {
 
         View subItemTwo03 = item1.getSubItemView(3);
         TextView tv03 = subItemTwo03.findViewById(R.id.sub_title);
-        tv03.setText(getString(R.string.ab_ma_app_name) + " (L4)");
+        tv03.setText(getString(R.string.ab_ma_m_app_name) + " (L4)");
         tv03.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics
                         .MultiscreenApps.Miwok_L4.MainActivity.class);
+                startActivity(i);
+            }
+        });
+
+        View subItemTwo04 = item1.getSubItemView(4);
+        TextView tv04 = subItemTwo04.findViewById(R.id.sub_title);
+        tv04.setText(getString(R.string.ab_ma_mp_app_name) + " (L5)");
+        tv04.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics
+                        .MultiscreenApps.MediaPlayerApp.class);
+                startActivity(i);
+            }
+        });
+
+        View subItemTwo05 = item1.getSubItemView(6);
+        TextView tv05 = subItemTwo05.findViewById(R.id.sub_title);
+        tv05.setText(getString(R.string.ab_ma_m_app_name) + " (L5)");
+        tv05.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics
+                        .MultiscreenApps.Miwok_L5.MainActivity.class);
                 startActivity(i);
             }
         });
