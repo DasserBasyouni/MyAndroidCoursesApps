@@ -147,4 +147,5 @@
     <string name="gls_l2_1_app_name">Location 2_1</string>
     <string name="gls_gf_app_name">Geofence App</string>
     <string name="gls_ar_app_name">Activity Recognition</string>
+    <string name="ab_ma_mp_app_name">MediaPlayer</string>
 </resources>

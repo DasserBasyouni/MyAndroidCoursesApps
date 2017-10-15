@@ -301,6 +301,11 @@
             tools:targetApi="jelly_bean" />
 
         <activity
+            android:label="@string/ab_ma_mp_app_name"
+            android:name=".Courses.AndroidBasics.MultiscreenApps.MediaPlayer"
+            tools:ignore="InnerclassSeparator" />
+
+        <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L5.MainActivity"
             android:label="@string/ab_ma_app_name"
             android:theme="@style/ab_ma_m_AppTheme"
@@ -621,6 +626,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <service android:name=".Courses.GoogleLocationService.Geofencing.gf_GeofenceTransitionsIntentService"
             tools:ignore="InnerclassSeparator" />
 
