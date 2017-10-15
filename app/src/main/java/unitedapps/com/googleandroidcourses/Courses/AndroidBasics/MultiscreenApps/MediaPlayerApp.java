@@ -16,17 +16,17 @@ import unitedapps.com.googleandroidcourses.R;
 
 public class MediaPlayerApp extends AppCompatActivity {
 
-    MediaPlayer mediaPlayer;
+    private MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ab_ma_mp_activity_main);
 
-        setBtnsOnclick();
+        setOnclickAndOnSeekBarChange();
     }
 
-    private void setBtnsOnclick() {
+    private void setOnclickAndOnSeekBarChange() {
         Button play_btn, pause_btn, skip_btn;
         SeekBar volume_sb;
 
@@ -55,7 +55,9 @@ public class MediaPlayerApp extends AppCompatActivity {
         volume_sb.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                mediaPlayer.setVolume(i/10,i/10);
+                int maxVolume = 10;
+                float log1 =(float)(Math.log(maxVolume- (i) )/Math.log(maxVolume));
+                mediaPlayer.setVolume(1-log1, 1-log1);
             }
 
             @Override

@@ -223,7 +223,7 @@ public class CoursesList extends Fragment {
             }
         });
 
-        View subItemTwo05 = item1.getSubItemView(6);
+        View subItemTwo05 = item1.getSubItemView(5);
         TextView tv05 = subItemTwo05.findViewById(R.id.sub_title);
         tv05.setText(getString(R.string.ab_ma_m_app_name) + " (L5)");
         tv05.setOnClickListener(new View.OnClickListener() {

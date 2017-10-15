@@ -28,7 +28,7 @@
         android:id="@+id/textView13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Volume"
+        android:text="Volume (this is controlling left and right volume)"
         android:paddingTop="10dp"
         android:paddingBottom="4dp"
         style="@style/Base.TextAppearance.AppCompat.Subhead"/>
@@ -38,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:max="10"
-        android:progress="4"
+        android:progress="10"
         android:id="@+id/ab_ma_mp_volume_sb"/>
 
     <Button
