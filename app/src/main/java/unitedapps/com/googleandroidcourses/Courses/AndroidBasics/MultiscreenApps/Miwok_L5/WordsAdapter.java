@@ -1,15 +1,20 @@
 package unitedapps.com.googleandroidcourses.Courses.AndroidBasics.MultiscreenApps.Miwok_L5;
 
 import android.content.Context;
+import android.media.MediaPlayer;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -34,9 +39,9 @@ class WordsAdapter extends ArrayAdapter<Words>{
         View listItemView = convertView;
         if(listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.ab_ma_m4_list_items_layout, parent, false);
+                    R.layout.ab_ma_m5_list_items_layout, parent, false);
         }
-        Words currentWord = getItem(position);
+        final Words currentWord = getItem(position);
 
         TextView nameTextView = listItemView.findViewById(R.id.english_tv);
         assert currentWord != null;
@@ -45,7 +50,7 @@ class WordsAdapter extends ArrayAdapter<Words>{
         TextView numberTextView = listItemView.findViewById(R.id.miwok_tv);
         numberTextView.setText(currentWord.getMiwokTranslation());
 
-        LinearLayout ab_ma_ml4_ll = listItemView.findViewById(R.id.ab_ma_ml4_ll);
+        LinearLayout ab_ma_ml4_ll = listItemView.findViewById(R.id.ab_ma_ml5_ll);
         ImageView imageView = listItemView.findViewById(R.id.miwok_iv);
 
         if (currentWord.getImageResourceId() != 0) {

@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
+import android.widget.Toast;
 
 import unitedapps.com.googleandroidcourses.R;
 
@@ -41,6 +42,13 @@ public class MediaPlayerApp extends AppCompatActivity {
                 if(mediaPlayer == null)
                     mediaPlayer =  MediaPlayer.create(getApplicationContext(), R.raw.culture_code_make_me_move);
                 mediaPlayer.start();
+                mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mediaPlayer) {
+                        Toast.makeText(MediaPlayerApp.this, "Am Done ^_^", Toast.LENGTH_LONG).show();
+                        releaseMediaPlayer();
+                    }
+                });
             }
         });
 
@@ -78,5 +86,22 @@ public class MediaPlayerApp extends AppCompatActivity {
                     mediaPlayer.seekTo(mediaPlayer.getDuration()/2);
             }
         });
+    }
+
+    /**
+     * Clean up the media player by releasing its resources.
+     */
+    private void releaseMediaPlayer() {
+        // If the media player is not null, then it may be currently playing a sound.
+        if (mediaPlayer != null) {
+            // Regardless of the current state of the media player, release its resources
+            // because we no longer need it.
+            mediaPlayer.release();
+
+            // Set the media player back to null. For our code, we've decided that
+            // setting the media player to null is an easy way to tell that the media player
+            // is not configured to play an audio file at the moment.
+            mediaPlayer = null;
+        }
     }
 }

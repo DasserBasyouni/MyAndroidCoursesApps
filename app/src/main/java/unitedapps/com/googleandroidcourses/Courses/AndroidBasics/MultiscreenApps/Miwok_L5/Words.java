@@ -6,17 +6,19 @@ package unitedapps.com.googleandroidcourses.Courses.AndroidBasics.MultiscreenApp
 
 class Words {
     private String defaultWord, miwokWord;
-    private int DrawableRes;
+    private int drawableRes, rawRes;
 
-    Words(String defaultWord, String miwokWord) {
+    Words(String defaultWord, String miwokWord, int rawRes) {
         this.miwokWord = miwokWord;
         this.defaultWord = defaultWord;
+        this.rawRes = rawRes;
     }
 
-    Words(String defaultWord, String miwokWord, int DrawableRes) {
+    Words(String defaultWord, String miwokWord, int drawableRes, int rawRes) {
         this.miwokWord = miwokWord;
         this.defaultWord = defaultWord;
-        this.DrawableRes = DrawableRes;
+        this.drawableRes = drawableRes;
+        this.rawRes = rawRes;
     }
 
     String getMiwokTranslation() {
@@ -28,7 +30,20 @@ class Words {
     }
 
     int getImageResourceId() {
-        return DrawableRes;
+        return drawableRes;
     }
 
+    int getRawResourceId() {
+        return rawRes;
+    }
+
+    @Override
+    public String toString() {
+        return "Words{" +
+                "defaultWord='" + defaultWord + '\'' +
+                ", miwokWord='" + miwokWord + '\'' +
+                ", drawableRes=" + drawableRes +
+                ", rawRes=" + rawRes +
+                '}';
+    }
 }

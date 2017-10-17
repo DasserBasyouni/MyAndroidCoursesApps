@@ -17,7 +17,7 @@ public class PhrasesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ab_ma2_words_list);
+        setContentView(R.layout.ab_ma_m2_words_list);
 
         ArrayList<Words> words = new ArrayList<>();
 
@@ -33,7 +33,7 @@ public class PhrasesActivity extends AppCompatActivity {
         words.add(new Words("Come here.", "әnni'nem"));
 
         WordsAdapter wordsAdapter = new WordsAdapter(this, words, R.color.ab_ma_category_phrases);
-        ListView listView = findViewById(R.id.list);
+        ListView listView = findViewById(R.id.ab_ma_m2_list_view);
         listView.setAdapter(wordsAdapter);
     }
 }

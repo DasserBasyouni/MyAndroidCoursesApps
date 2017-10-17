@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ab_ma_tan_background"
+    android:orientation="vertical"
+    tools:context=".Courses.AndroidBasics.MultiscreenApps.Miwok_L2.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ab_ma_category_numbers">
+        <TextView
+            android:id="@+id/numbers_tv"
+            style="@style/ab_ma_CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/ab_ma_category_numbers"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ab_ma_category_family">
+    <TextView
+        android:id="@+id/family_tv"
+        style="@style/ab_ma_CategoryStyle"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/ab_ma_category_family" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ab_ma_category_colors">
+    <TextView
+        android:id="@+id/colors_tv"
+        style="@style/ab_ma_CategoryStyle"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/ab_ma_category_colors"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ab_ma_category_phrases">
+    <TextView
+        android:id="@+id/phrases_tv"
+        style="@style/ab_ma_CategoryStyle"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/ab_ma_category_phrases"/>
+    </FrameLayout>
+</LinearLayout>

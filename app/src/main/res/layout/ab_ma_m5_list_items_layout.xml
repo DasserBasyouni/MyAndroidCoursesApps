@@ -3,16 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="88dp"
-    android:orientation="horizontal">
+    android:id="@+id/ab_ma_ml5_ll">
 
     <ImageView
         android:id="@+id/miwok_iv"
         android:layout_width="88dp"
         android:layout_height="88dp"
+        android:background="@color/ab_ma_tan_background"
         tools:src="@drawable/ab_ma_ml2_color_black" />
 
     <LinearLayout
-        android:id="@+id/ab_ma_ml4_ll"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="3"
@@ -45,5 +45,13 @@
             tools:text="English" />
 
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_play_arrow_white_36dp" />
 
 </LinearLayout>
