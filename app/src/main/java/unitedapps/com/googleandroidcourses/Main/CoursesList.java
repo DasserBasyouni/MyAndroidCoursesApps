@@ -161,7 +161,7 @@ public class CoursesList extends Fragment {
 
         ExpandingItem item1 = expandingList.createNewItem(R.layout.expanding_layout);
         ((TextView) item1.findViewById(R.id.title)).setText("Android Basics: Multiscreen Apps");
-        item1.createSubItems(6);
+        item1.createSubItems(10);
 
         View subItemZero00 = item1.getSubItemView(0);
         TextView tv00 = subItemZero00.findViewById(R.id.sub_title);
@@ -231,6 +231,54 @@ public class CoursesList extends Fragment {
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics
                         .MultiscreenApps.Miwok_L5.MainActivity.class);
+                startActivity(i);
+            }
+        });
+
+        View subItemTwo06 = item1.getSubItemView(6);
+        TextView tv06 = subItemTwo06.findViewById(R.id.sub_title);
+        tv06.setText(getString(R.string.ab_ma_m_app_name) + " Backup v1 (L6)");
+        tv06.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics
+                        .MultiscreenApps.Miwok_L6_BackupV1.MainActivity.class);
+                startActivity(i);
+            }
+        });
+
+        View subItemTwo07 = item1.getSubItemView(7);
+        TextView tv07 = subItemTwo07.findViewById(R.id.sub_title);
+        tv07.setText(getString(R.string.ab_ma_vpe_app_name) + " (L6)");
+        tv07.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics
+                        .MultiscreenApps.ViewPager_Example.MainActivity.class);
+                startActivity(i);
+            }
+        });
+
+        View subItemTwo08 = item1.getSubItemView(8);
+        TextView tv08 = subItemTwo08.findViewById(R.id.sub_title);
+        tv08.setText(getString(R.string.ab_ma_m_app_name) + " (L6)");
+        tv08.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics
+                        .MultiscreenApps.Miwok_L6.MainActivity.class);
+                startActivity(i);
+            }
+        });
+
+        View subItemTwo09 = item1.getSubItemView(9);
+        TextView tv09 = subItemTwo09.findViewById(R.id.sub_title);
+        tv09.setText(getString(R.string.ab_ma_tg_app_name) + " (L7)");
+        tv09.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics
+                        .MultiscreenApps.TourGuideApp.MainActivity.class);
                 startActivity(i);
             }
         });

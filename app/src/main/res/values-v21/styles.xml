@@ -72,6 +72,25 @@
         <item name="android:statusBarColor">@color/ab_ma_primary_dark_color</item>
         <item name="android:navigationBarColor">@color/ab_ma_primary_dark_color</item>
     </style>
+
+    <style
+        name="ab_ma_m6_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ab_ma_primary_color</item>
+        <item name="colorPrimaryDark">@color/ab_ma_primary_dark_color</item>
+        <item name="android:statusBarColor">@color/ab_ma_primary_dark_color</item>
+        <item name="android:navigationBarColor">@color/ab_ma_primary_dark_color</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style
+        name="ab_ma_tg_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ab_ma_tg_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ab_ma_tg_colorPrimaryDark</item>
+        <item name="android:statusBarColor">@color/ab_ma_tg_colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/ab_ma_tg_colorPrimaryDark</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
     <style
         name="ab_ma_rc_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/ab_ma_primary_color</item>

@@ -189,32 +189,28 @@
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L1.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L1.FamilyMembersActivity"
             android:label="@string/ab_ma_category_family"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L1.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L1.ColorsActivity"
             android:label="@string/ab_ma_category_colors"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L1.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L1.PhrasesActivity"
             android:label="@string/ab_ma_category_phrases"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L1.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
 
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L2.MainActivity"
@@ -228,32 +224,28 @@
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L2.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L2.FamilyMembersActivity"
             android:label="@string/ab_ma_category_family"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L2.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L2.ColorsActivity"
             android:label="@string/ab_ma_category_colors"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L2.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L2.PhrasesActivity"
             android:label="@string/ab_ma_category_phrases"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L2.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
 
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.ReportCard"
@@ -273,32 +265,28 @@
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L4.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L4.FamilyMembersActivity"
             android:label="@string/ab_ma_category_family"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L4.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L4.ColorsActivity"
             android:label="@string/ab_ma_category_colors"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L4.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L4.PhrasesActivity"
             android:label="@string/ab_ma_category_phrases"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L4.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
 
         <activity
             android:label="@string/ab_ma_mp_app_name"
@@ -317,33 +305,115 @@
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L5.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L5.FamilyMembersActivity"
             android:label="@string/ab_ma_category_family"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L5.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L5.ColorsActivity"
             android:label="@string/ab_ma_category_colors"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L5.MainActivity"
-            tools:targetApi="jelly_bean" />
+            />
         <activity
             android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L5.PhrasesActivity"
             android:label="@string/ab_ma_category_phrases"
             android:theme="@style/ab_ma_m_AppTheme"
             android:icon="@mipmap/ab_ma_ic_launcher"
+            tools:ignore="InnerclassSeparator" />
+
+        <activity
+            android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L6_BackupV1.MainActivity"
+            android:label="@string/ab_ma_m_app_name"
+            android:theme="@style/ab_ma_m_AppTheme"
+            android:icon="@mipmap/ab_ma_ic_launcher"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L6_BackupV1.NumbersActivity"
+            android:label="@string/ab_ma_category_numbers"
+            android:theme="@style/ab_ma_m_AppTheme"
+            android:icon="@mipmap/ab_ma_ic_launcher"
             tools:ignore="InnerclassSeparator"
-            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L5.MainActivity"
+            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L6_BackupV1.MainActivity"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L6_BackupV1.FamilyMembersActivity"
+            android:label="@string/ab_ma_category_family"
+            android:theme="@style/ab_ma_m_AppTheme"
+            android:icon="@mipmap/ab_ma_ic_launcher"
+            tools:ignore="InnerclassSeparator"
+            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L6_BackupV1.MainActivity"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L6_BackupV1.ColorsActivity"
+            android:label="@string/ab_ma_category_colors"
+            android:theme="@style/ab_ma_m_AppTheme"
+            android:icon="@mipmap/ab_ma_ic_launcher"
+            tools:ignore="InnerclassSeparator"
+            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L6_BackupV1.MainActivity"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L6_BackupV1.PhrasesActivity"
+            android:label="@string/ab_ma_category_phrases"
+            android:theme="@style/ab_ma_m_AppTheme"
+            android:icon="@mipmap/ab_ma_ic_launcher"
+            tools:ignore="InnerclassSeparator"
+            android:parentActivityName=".Courses.AndroidBasics.MultiscreenApps.Miwok_L6_BackupV1.MainActivity"
             tools:targetApi="jelly_bean" />
 
+        <activity
+            android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L6.MainActivity"
+            android:label="@string/ab_ma_m_app_name"
+            android:theme="@style/ab_ma_m6_AppTheme"
+            android:icon="@mipmap/ab_ma_ic_launcher"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L6.NumbersActivity"
+            android:label="@string/ab_ma_category_numbers"
+            android:theme="@style/ab_ma_m_AppTheme"
+            android:icon="@mipmap/ab_ma_ic_launcher"
+            tools:ignore="InnerclassSeparator"
+            />
+        <activity
+            android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L6.FamilyMembersActivity"
+            android:label="@string/ab_ma_category_family"
+            android:theme="@style/ab_ma_m_AppTheme"
+            android:icon="@mipmap/ab_ma_ic_launcher"
+            tools:ignore="InnerclassSeparator"
+            />
+        <activity
+            android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L6.ColorsActivity"
+            android:label="@string/ab_ma_category_colors"
+            android:theme="@style/ab_ma_m_AppTheme"
+            android:icon="@mipmap/ab_ma_ic_launcher"
+            tools:ignore="InnerclassSeparator"
+            />
+        <activity
+            android:name=".Courses.AndroidBasics.MultiscreenApps.Miwok_L6.PhrasesActivity"
+            android:label="@string/ab_ma_category_phrases"
+            android:theme="@style/ab_ma_m_AppTheme"
+            android:icon="@mipmap/ab_ma_ic_launcher"
+            tools:ignore="InnerclassSeparator"
+            />
+
+        <activity
+            android:name=".Courses.AndroidBasics.MultiscreenApps.ViewPager_Example.MainActivity"
+            android:label="@string/ab_ma_vpe_app_name"
+            android:theme="@style/ab_ma_m_AppTheme"
+            tools:ignore="InnerclassSeparator"
+            />
+
+        <activity
+            android:name=".Courses.AndroidBasics.MultiscreenApps.TourGuideApp.MainActivity"
+            android:label="@string/ab_ma_tg_app_name"
+            android:theme="@style/ab_ma_tg_AppTheme"
+            tools:ignore="InnerclassSeparator"
+            />
 
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L2.Sunshine_L2"

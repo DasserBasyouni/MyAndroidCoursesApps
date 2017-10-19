@@ -17,7 +17,7 @@ public class BusinessDetailsCard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ab_bdc_main_activity);
 
-        TextView ab_bdc_contact_tv = findViewById(R.id.ab_bdc_contact_tv);
+        TextView ab_bdc_contact_tv = findViewById(R.id.ab_bdc_location_tv);
         ab_bdc_contact_tv.setMovementMethod(LinkMovementMethod.getInstance());
 
         TextView ab_bdc_site_tv = findViewById(R.id.ab_bdc_site_tv);

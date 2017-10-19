@@ -139,7 +139,7 @@
     <string name="ab_ma_category_numbers">Numbers</string>
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
-    <string name="ab_ma_category_family">Family Members</string>
+    <string name="ab_ma_category_family">Family</string>
     <string name="ab_rc_app_name">Report Card</string>
 
 
@@ -148,4 +148,59 @@
     <string name="gls_gf_app_name">Geofence App</string>
     <string name="gls_ar_app_name">Activity Recognition</string>
     <string name="ab_ma_mp_app_name">MediaPlayer</string>
+    <string name="ab_ma_vpe_app_name">ViewPager Example</string>
+
+    <string name="ab_ma_tg_app_name">Alex Tour Guide</string>
+    <string name="ab_ma_tg_hotel_1_name">Sheraton Montazah</string>
+    <string name="ab_ma_tg_hotel_1_location">Corniche Road, Alexandria, EG-ALX</string>
+    <string name="ab_ma_tg_hotel_1_desc">Overlooking the Mediterranean Sea, this refined business hotel is across the street from the beach and a 13-minute walk from Montaza Palace.</string>
+    <string name="ab_ma_tg_hotel_1_stars">5 ★</string>
+    <string name="ab_ma_tg_hotel_2_name">Alexandria Romance</string>
+    <string name="ab_ma_tg_hotel_2_location">303 Tareek El Gueish Saba Pasha, Alexandria</string>
+    <string name="ab_ma_tg_place_no_desc">No Description Avaliable :(</string>
+    <string name="ab_ma_tg_hotel_2_stars">4 ★</string>
+    <string name="ab_ma_tg_hotel_3_name">Acropole</string>
+    <string name="ab_ma_tg_hotel_3_location">27 ش الغرفة التجارية، San Stifano, Qism El-Raml, Alexandria Governorate</string>
+    <string name="ab_ma_tg_hotel_3_stars">2 ★</string>
+    <string name="ab_ma_tg_hotel_4_name">Amoun</string>
+    <string name="ab_ma_tg_hotel_4_location">32 El-Nasr, Al Mansheyah Al Kubra, Qism El-Mansheya, Alexandria Governorate</string>
+    <string name="ab_ma_tg_hotel_4_stars">3 ★</string>
+    <string name="ab_ma_tg_hotel_5_name">Plaza</string>
+    <string name="ab_ma_tg_hotel_5_location">394 El-Gaish Rd, San Stifano, Qism El-Raml, Alexandria Governorate</string>
+    <string name="ab_ma_tg_hotel_5_rate">4 ★</string>
+    <string name="ab_ma_tg_hotel_5_desc">With views of the Mediterranean Sea, this warm hotel overlooking a busy commercial street is a 7-minute walk from the Royal Jewelry Museum, 8 km from Montazah Palace and 9 km from Alexandria International Airport.</string>
+    <string name="ab_ma_tg_res_1_name">Samakmak</string>
+    <string name="ab_ma_tg_res_1_location">60 Sidi Yakout, As Sayalah Gharb, Qesm Al Gomrok, Alexandria Governorate</string>
+    <string name="ab_ma_tg_res_1_rate">4.2 (168 Google reviews)</string>
+    <string name="ab_ma_tg_res_2_name">White and Blue Restaurant</string>
+    <string name="ab_ma_tg_res_2_location">Kayetbai, As Sayalah Sharq, Qesm Al Gomrok, Alexandria Governorate</string>
+    <string name="ab_ma_tg_res_2_rate">3.9 (14 Google reviews)</string>
+    <string name="ab_ma_tg_res_3_name">Chez Gabi</string>
+    <string name="ab_ma_tg_res_3_location">As Soyouf Bahri, Qesm Al Montazah, Alexandria Governorate</string>
+    <string name="ab_ma_tg_res_3_rate">4.3 (54 Google reviews)</string>
+    <string name="ab_ma_tg_res_4_name">Abou El Sid</string>
+    <string name="ab_ma_tg_res_4_location">49 Sidi Al Khbashi, Kom Ad Dakah Gharb, Qesm Al Attarin, Alexandria Governorate</string>
+    <string name="ab_ma_tg_res_4_rate">4.2 (84 Google reviews)</string>
+    <string name="ab_ma_tg_res_5_name">Aroos El Bahr</string>
+    <string name="ab_ma_tg_res_5_location">11 Sidi Nasr El-Deen, As Sayalah Sharq, Qesm Al Gomrok, Alexandria Governorate</string>
+    <string name="ab_ma_tg_res_5_rate">4.2 (120 Google reviews)</string>
+    <string name="ab_ma_tg_his_1_name">Library of Alexandria</string>
+    <string name="ab_ma_tg_his_1_desc">The Royal Library of Alexandria or Ancient Library of Alexandria in Alexandria, Egypt, was one of the largest and most significant libraries of the ancient world. It was dedicated to the Muses, the nine goddesses of the arts.</string>
+    <string name="ab_ma_tg_his_1_rate">4.7 (1,076 Google reviews)</string>
+    <string name="ab_ma_tg_his_1_location">Al Azaritah WA Ash Shatebi, Qesm Bab Sharqi, Alexandria Governorate 21526</string>
+    <string name="ab_ma_tg_his_2_name">Roman Auditorium</string>
+    <string name="ab_ma_tg_his_2_location">أمام محطة مصرالسكة الحديدية, Kom Ad Dakah Gharb, Qesm Al Attarin, Alexandria Governorateأمام محطة مصرالسكة الحديدية, Kom Ad Dakah Gharb, Qesm Al Attarin, Alexandria Governorate</string>
+    <string name="ab_ma_tg_his_2_rate">4.2 (279 Google reviews)</string>
+    <string name="ab_ma_tg_his_3_name">Alexandria National Museum</string>
+    <string name="ab_ma_tg_his_3_desc">The Alexandria National Museum is a museum in Alexandria, Egypt. It was inaugurated the 31 December 2003 by Hosni Mubarak and it is located in a renovated Italian style palace in Tariq Al-Horreya Street.</string>
+    <string name="ab_ma_tg_his_3_location">131 El-Shaheed Galal El-Desouky, Bab Sharqi WA Wabour Al Meyah, Qesm Bab Sharqi, Alexandria Governorate</string>
+    <string name="ab_ma_tg_his_3_rate">4.4 (115 Google reviews)</string>
+    <string name="ab_ma_tg_his_4_desc">The Alexandria Zoo is a zoo close to the Smouha neighborhood in Alexandria, Egypt. The zoo charges an entrance fee, which allows guests to walk around the zoo and view a selection of animals from around the world.</string>
+    <string name="ab_ma_tg_his_4_name">Alexandria Zoo</string>
+    <string name="ab_ma_tg_his_4_location">Ezbet Saad, Qism Sidi Gabir, Alexandria Governorate</string>
+    <string name="ab_ma_tg_his_4_rate">3.4 (75 Google reviews)</string>
+    <string name="ab_ma_tg_his_5_name">Alexandria Aquarium</string>
+    <string name="ab_ma_tg_his_5_location">Qaitbay St.، EL ANFOUSHI، Qesm Al Gomrok, Alexandria Governorate</string>
+    <string name="ab_ma_tg_his_5_desc">Alexandria Aquarium is a small aquarium in Alexandria, Egypt. It was built in 1930 and is near Qaitbay fort on Alexandria\'s Eastern Harbour.</string>
+    <string name="ab_ma_tg_his_5_rate">4.1 (399 Google reviews)</string>
 </resources>

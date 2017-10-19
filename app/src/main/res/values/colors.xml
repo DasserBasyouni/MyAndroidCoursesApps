@@ -54,4 +54,9 @@
     <!-- Background color for the phrases category -->
     <color name="ab_ma_category_phrases">#16AFCA</color>
 
+    <color name="ab_ma_m6_faded_tab">#A8A19E</color>
+
+    <color name="ab_ma_tg_colorPrimary">#E91E63</color>
+    <color name="ab_ma_tg_colorPrimaryDark">#C2185B</color>
+
 </resources>
