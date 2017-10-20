@@ -36,6 +36,7 @@ Here are screenshot of app's second and third stages of design and user interfac
 - Popular Movies in orientation of the device while feching data
 - Activity Recognition is not deactivating Listner 
 - Bot Padding of AndroidExpandingViewLibrary
+- In "Alex Tour Guide" app the RecyclerView displays only one kind of the data (could be fixied by making a fragment for every restuarent, hotel.. but I am planing to fix it later on with using only one fragment for them all)
 
 # Used Libraries in this project
 - [android-gif-drawable](https://github.com/koral--/android-gif-drawable)
