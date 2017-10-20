@@ -172,7 +172,7 @@
     <string name="ab_ma_tg_res_1_name">Samakmak</string>
     <string name="ab_ma_tg_res_1_location">60 Sidi Yakout, As Sayalah Gharb, Qesm Al Gomrok, Alexandria Governorate</string>
     <string name="ab_ma_tg_res_1_rate">4.2 (168 Google reviews)</string>
-    <string name="ab_ma_tg_res_2_name">White and Blue Restaurant</string>
+    <string name="ab_ma_tg_res_2_name">White and Blue</string>
     <string name="ab_ma_tg_res_2_location">Kayetbai, As Sayalah Sharq, Qesm Al Gomrok, Alexandria Governorate</string>
     <string name="ab_ma_tg_res_2_rate">3.9 (14 Google reviews)</string>
     <string name="ab_ma_tg_res_3_name">Chez Gabi</string>
@@ -203,4 +203,19 @@
     <string name="ab_ma_tg_his_5_location">Qaitbay St.، EL ANFOUSHI، Qesm Al Gomrok, Alexandria Governorate</string>
     <string name="ab_ma_tg_his_5_desc">Alexandria Aquarium is a small aquarium in Alexandria, Egypt. It was built in 1930 and is near Qaitbay fort on Alexandria\'s Eastern Harbour.</string>
     <string name="ab_ma_tg_his_5_rate">4.1 (399 Google reviews)</string>
+    <string name="ab_ma_tg_cafe_1_name">Delices</string>
+    <string name="ab_ma_tg_cafe_1_location">46 Saad Zaghloul, Raml Station, Alexandria Governorate</string>
+    <string name="ab_ma_tg_cafe_1_rate">4.4 (398 Google reviews)</string>
+    <string name="ab_ma_tg_cafe_2_name">Zanilli\'s Cafe</string>
+    <string name="ab_ma_tg_cafe_2_location">AR Riyadah, Qism Sidi Gabir, Alexandria Governorate</string>
+    <string name="ab_ma_tg_cafe_2_rate">3.5 (Google reviews)</string>
+    <string name="ab_ma_tg_cafe_3_name">Biker Zone Cafe</string>
+    <string name="ab_ma_tg_cafe_3_location">Le Marche Mall Near The International Park - Moharram Beik Alexandria, Alexandria, Egypt, 12212، طريق القاهرة الأسكندرية الصحراوي، Qism Moharram Bek, Alexandria Governorate 12212</string>
+    <string name="ab_ma_tg_cafe_3_rate">5.0 (4 Google reviews)</string>
+    <string name="ab_ma_tg_cafe_4_name">Cafe Supreme</string>
+    <string name="ab_ma_tg_cafe_4_location">El-Gaish Rd, Fleming, Qism El-Raml, Alexandria Governorate</string>
+    <string name="ab_ma_tg_cafe_4_rate">4.3 (Google reviews)</string>
+    <string name="ab_ma_tg_cafe_5_name">Cilantro Café</string>
+    <string name="ab_ma_tg_cafe_5_location">Ezbet El-Nozha, Qism Sidi Gabir, Alexandria Governorate</string>
+    <string name="ab_ma_tg_cafe_5_rate">4.4 (5 Google reviews)</string>
 </resources>

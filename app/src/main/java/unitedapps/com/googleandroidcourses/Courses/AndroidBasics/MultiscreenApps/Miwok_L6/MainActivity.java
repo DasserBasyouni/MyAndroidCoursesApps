@@ -38,8 +38,5 @@ public class MainActivity extends AppCompatActivity {
         ViewPager viewPager = findViewById(R.id.ab_ma_vpe_viewpager);
         CategoryFragmentPagerAdapter adapter = new CategoryFragmentPagerAdapter(getSupportFragmentManager(),MainActivity.this);
         viewPager.setAdapter(adapter);
-
-        tabLayout = findViewById(R.id.ab_ma_m6_sliding_tabs);
-        tabLayout.setupWithViewPager(viewPager);
     }
 }

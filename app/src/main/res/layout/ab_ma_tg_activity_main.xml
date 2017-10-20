@@ -15,7 +15,7 @@
         android:id="@+id/ab_ma_tg_tab_layout"
         android:layout_width="match_parent"
         app:tabMode="fixed"
-        app:tabTextColor="@color/ab_ma_m6_faded_tab"
+        app:tabTextColor="@color/ab_ma_tg_faded_tab"
         app:tabSelectedTextColor="@color/m_white"
         app:tabIndicatorColor="@color/m_white"
         android:background="@color/ab_ma_tg_colorPrimary"

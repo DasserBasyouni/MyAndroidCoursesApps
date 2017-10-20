@@ -75,28 +75,17 @@ public class PlacesFragment extends Fragment {
                 placesDataObjects[4] = new PlacesDataObject(getString(R.string.ab_ma_tg_his_5_name), getString(R.string.ab_ma_tg_his_5_location)
                         , getString(R.string.ab_ma_tg_his_5_desc), R.drawable.ab_ma_tg_his_5, getString(R.string.ab_ma_tg_his_5_rate) );
             case 3:
-                placesDataObjects[0] = new PlacesDataObject(getString(R.string.ab_ma_tg_res_1_name), getString(R.string.ab_ma_tg_res_1_location)
-                        , getString(R.string.ab_ma_tg_place_no_desc), R.drawable.ab_ma_tg_res_1, getString(R.string.ab_ma_tg_res_1_rate) );
-                placesDataObjects[1] = new PlacesDataObject(getString(R.string.ab_ma_tg_res_2_name), getString(R.string.ab_ma_tg_res_2_location)
-                        , getString(R.string.ab_ma_tg_place_no_desc), R.drawable.ab_ma_tg_res_2, getString(R.string.ab_ma_tg_res_2_rate) );
-                placesDataObjects[2] = new PlacesDataObject(getString(R.string.ab_ma_tg_res_3_name), getString(R.string.ab_ma_tg_res_3_location)
-                        , getString(R.string.ab_ma_tg_place_no_desc), R.drawable.ab_ma_tg_res_3, getString(R.string.ab_ma_tg_res_3_rate) );
-                placesDataObjects[3] = new PlacesDataObject(getString(R.string.ab_ma_tg_res_4_name), getString(R.string.ab_ma_tg_res_4_location)
-                        , getString(R.string.ab_ma_tg_place_no_desc), R.drawable.ab_ma_tg_res_4, getString(R.string.ab_ma_tg_res_4_rate) );
-                placesDataObjects[4] = new PlacesDataObject(getString(R.string.ab_ma_tg_res_5_name), getString(R.string.ab_ma_tg_res_5_location)
-                        , getString(R.string.ab_ma_tg_place_no_desc), R.drawable.ab_ma_tg_res_5, getString(R.string.ab_ma_tg_res_5_rate) );
-                /*placesDataObjects[0] = new PlacesDataObject(getString(R.string.ab_ma_tg_enj_1_name), getString(R.string.ab_ma_tg_enj_1_location)
-                        , getString(R.string.ab_ma_tg_enj_1_desc), R.drawable.ab_ma_tg_enj_1, getString(R.string.ab_ma_tg_enj_1_stars) );
-                placesDataObjects[1] = new PlacesDataObject(getString(R.string.ab_ma_tg_enj_2_name), getString(R.string.ab_ma_tg_enj_2_location)
-                        , getString(R.string.ab_ma_tg_enj_2_desc), R.drawable.ab_ma_tg_enj_2, getString(R.string.ab_ma_tg_enj_2_stars) );
-                placesDataObjects[2] = new PlacesDataObject(getString(R.string.ab_ma_tg_enj_3_name), getString(R.string.ab_ma_tg_enj_3_location)
-                        , getString(R.string.ab_ma_tg_enj_3_desc), R.drawable.ab_ma_tg_enj_3, getString(R.string.ab_ma_tg_enj_3_stars) );
-                placesDataObjects[3] = new PlacesDataObject(getString(R.string.ab_ma_tg_enj_4_name), getString(R.string.ab_ma_tg_enj_4_location)
-                        , getString(R.string.ab_ma_tg_enj_4_desc), R.drawable.ab_ma_tg_enj_4, getString(R.string.ab_ma_tg_enj_4_stars) );
-                placesDataObjects[4] = new PlacesDataObject(getString(R.string.ab_ma_tg_enj_5_name), getString(R.string.ab_ma_tg_enj_5_location)
-                        , getString(R.string.ab_ma_tg_enj_5_desc), R.drawable.ab_ma_tg_enj_5, getString(R.string.ab_ma_tg_enj_5_rate) );
-        */}
-
+                placesDataObjects[0] = new PlacesDataObject(getString(R.string.ab_ma_tg_cafe_1_name), getString(R.string.ab_ma_tg_cafe_1_location)
+                        , getString(R.string.ab_ma_tg_place_no_desc), R.drawable.ab_ma_tg_cafe_1, getString(R.string.ab_ma_tg_cafe_1_rate) );
+                placesDataObjects[1] = new PlacesDataObject(getString(R.string.ab_ma_tg_cafe_2_name), getString(R.string.ab_ma_tg_cafe_2_location)
+                        , getString(R.string.ab_ma_tg_place_no_desc), R.drawable.ab_ma_tg_cafe_2, getString(R.string.ab_ma_tg_cafe_2_rate) );
+                placesDataObjects[2] = new PlacesDataObject(getString(R.string.ab_ma_tg_cafe_3_name), getString(R.string.ab_ma_tg_cafe_3_location)
+                        , getString(R.string.ab_ma_tg_place_no_desc), R.drawable.ab_ma_tg_cafe_3, getString(R.string.ab_ma_tg_cafe_3_rate) );
+                placesDataObjects[3] = new PlacesDataObject(getString(R.string.ab_ma_tg_cafe_4_name), getString(R.string.ab_ma_tg_cafe_4_location)
+                        , getString(R.string.ab_ma_tg_place_no_desc), R.drawable.ab_ma_tg_cafe_4, getString(R.string.ab_ma_tg_cafe_4_rate) );
+                placesDataObjects[4] = new PlacesDataObject(getString(R.string.ab_ma_tg_cafe_5_name), getString(R.string.ab_ma_tg_cafe_5_location)
+                        , getString(R.string.ab_ma_tg_place_no_desc), R.drawable.ab_ma_tg_cafe_5, getString(R.string.ab_ma_tg_cafe_5_rate) );
+        }
         return placesDataObjects;
     }
 
