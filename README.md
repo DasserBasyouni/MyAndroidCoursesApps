@@ -21,6 +21,8 @@ Here are screenshot of app's second and third stages of design and user interfac
 | My Card App  | [Android Basics: User Interface](https://classroom.udacity.com/courses/ud834)  | <img src="/Screenshots/MyCardApp.png" width="240">  |
 | Business Detauks Card  | [Android Basics: User Interface](https://classroom.udacity.com/courses/ud834)  | <img src="/Screenshots/BusinessDetailsCard.png" width="240">  |
 | Miwok  | [Android Basics: Multiscreen Apps](https://classroom.udacity.com/courses/ud839)  | <img src="/Screenshots/Miwok.png" width="240">  |
+| ViewPager Example  | [Android Basics: Multiscreen Apps](https://classroom.udacity.com/courses/ud839)  | <img src="/Screenshots/ViewPagerExample.png" width="240">  |
+| Alex Tour Guide  | [Android Basics: Multiscreen Apps](https://classroom.udacity.com/courses/ud839)  | <img src="/Screenshots/AlexTourGuide.png" width="240">  |
 | ReportCard  | [Android Basics: Multiscreen Apps](https://classroom.udacity.com/courses/ud839)  | <img src="/Screenshots/ReportCard.png" width="240">  |
 | Sunshine  | [Developing Android Apps](https://classroom.udacity.com/courses/ud853)  | <img src="/Screenshots/Sunshine.png" width="240">  |
 | Popular Movies  | [Developing Android Apps](https://classroom.udacity.com/courses/ud853)  | <img src="/Screenshots/PopularMovies.png" width="240">  |
