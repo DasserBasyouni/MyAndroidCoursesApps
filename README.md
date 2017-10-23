@@ -21,6 +21,8 @@ Here are screenshot of app's second and third stages of design and user interfac
 | My Card App  | [Android Basics: User Interface](https://classroom.udacity.com/courses/ud834)  | <img src="/Screenshots/MyCardApp.png" width="240">  |
 | Business Detauks Card  | [Android Basics: User Interface](https://classroom.udacity.com/courses/ud834)  | <img src="/Screenshots/BusinessDetailsCard.png" width="240">  |
 | Miwok  | [Android Basics: Multiscreen Apps](https://classroom.udacity.com/courses/ud839)  | <img src="/Screenshots/Miwok.png" width="240">  |
+| ViewPager Example  | [Android Basics: Multiscreen Apps](https://classroom.udacity.com/courses/ud839)  | <img src="/Screenshots/ViewPagerExample.png" width="240">  |
+| Alex Tour Guide  | [Android Basics: Multiscreen Apps](https://classroom.udacity.com/courses/ud839)  | <img src="/Screenshots/AlexTourGuide.png" width="240">  |
 | ReportCard  | [Android Basics: Multiscreen Apps](https://classroom.udacity.com/courses/ud839)  | <img src="/Screenshots/ReportCard.png" width="240">  |
 | Sunshine  | [Developing Android Apps](https://classroom.udacity.com/courses/ud853)  | <img src="/Screenshots/Sunshine.png" width="240">  |
 | Popular Movies  | [Developing Android Apps](https://classroom.udacity.com/courses/ud853)  | <img src="/Screenshots/PopularMovies.png" width="240">  |
@@ -34,6 +36,7 @@ Here are screenshot of app's second and third stages of design and user interfac
 - Popular Movies in orientation of the device while feching data
 - Activity Recognition is not deactivating Listner 
 - Bot Padding of AndroidExpandingViewLibrary
+- In "Alex Tour Guide" app the RecyclerView displays only one kind of the data (could be fixied by making a fragment for every restuarent, hotel.. but I am planing to fix it later on with using only one fragment for them all)
 
 # Used Libraries in this project
 - [android-gif-drawable](https://github.com/koral--/android-gif-drawable)
