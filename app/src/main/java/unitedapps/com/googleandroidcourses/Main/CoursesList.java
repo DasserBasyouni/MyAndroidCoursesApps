@@ -421,14 +421,34 @@ public class CoursesList extends Fragment {
 
 
         ExpandingItem item2 = expandingList.createNewItem(R.layout.expanding_layout);
-        ((TextView) item2.findViewById(R.id.title)).setText("How to Use a Content Provider");
+        ((TextView) item2.findViewById(R.id.title)).setText("Android Basics: Networking");
         item2.createSubItems(1);
 
         View subItemZero2 = item2.getSubItemView(0);
-        ((TextView) subItemZero2.findViewById(R.id.sub_title)).setText("No Apps Made Here");
+        TextView tv2_2 = subItemZero2.findViewById(R.id.sub_title);
+        tv2_2.setText(getString(R.string.ab_n_app_name) + " (L1)");
+        tv2_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics.
+                        Networking.Earthquake_L1.EarthquakeActivity.class);
+                startActivity(i);
+            }
+        });
 
         item2.setIndicatorColorRes(R.color.m_purple);
         item2.setIndicatorIconRes(R.drawable.m_ic_android);
+
+
+        ExpandingItem item3_3 = expandingList.createNewItem(R.layout.expanding_layout);
+        ((TextView) item3_3.findViewById(R.id.title)).setText("How to Use a Content Provider");
+        item3_3.createSubItems(1);
+
+        View subItemZero0001 = item3_3.getSubItemView(0);
+        ((TextView) subItemZero0001.findViewById(R.id.sub_title)).setText("No Apps Made Here");
+
+        item3_3.setIndicatorColorRes(R.color.m_purple);
+        item3_3.setIndicatorIconRes(R.drawable.m_ic_android);
 
 
         ExpandingItem item4 = expandingList.createNewItem(R.layout.expanding_layout);

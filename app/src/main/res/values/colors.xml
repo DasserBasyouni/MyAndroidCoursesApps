@@ -60,4 +60,45 @@
     <color name="ab_ma_tg_colorPrimaryDark">#C2185B</color>
     <color name="ab_ma_tg_faded_tab">#BDBDBD</color>
 
+
+    <!--Android Basics: Networking Course Apps-->
+    <color name="ab_n_colorPrimary">#2B3D4D</color>
+    <color name="ab_n_colorPrimaryDark">#23303D</color>
+    <color name="ab_n_colorAccent">#10CAC9</color>
+
+    <!-- Color for an earthquake with magnitude 0 and 2 -->
+    <color name="ab_n_magnitude1">#4A7BA7</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 2 and 3 -->
+    <color name="ab_n_magnitude2">#04B4B3</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 3 and 4 -->
+    <color name="ab_n_magnitude3">#10CAC9</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 4 and 5 -->
+    <color name="ab_n_magnitude4">#F5A623</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 5 and 6 -->
+    <color name="ab_n_magnitude5">#FF7D50</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 6 and 7 -->
+    <color name="ab_n_magnitude6">#FC6644</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 7 and 8 -->
+    <color name="ab_n_magnitude7">#E75F40</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 8 and 9 -->
+    <color name="ab_n_magnitude8">#E13A20</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude between 9 and 10 -->
+    <color name="ab_n_magnitude9">#D93218</color>
+
+    <!-- Magnitude circle color for an earthquake with magnitude over 10 -->
+    <color name="ab_n_magnitude10plus">#C03823</color>
+
+    <!-- Text color for the details of the earthquake in the list item -->
+    <color name="ab_n_textColorEarthquakeDetails">#B4BAC0</color>
+
+    <!-- Text color for the primary location of the earthquake in the list item -->
+    <color name="ab_n_textColorEarthquakeLocation">#2B3D4D</color>
 </resources>

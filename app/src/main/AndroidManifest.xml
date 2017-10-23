@@ -415,6 +415,20 @@
             tools:ignore="InnerclassSeparator"
             />
 
+
+        <!--Android Basics: Networking Course Apps-->
+        <activity android:name=".Courses.AndroidBasics.Networking.Earthquake_L1.EarthquakeActivity"
+            android:icon="@drawable/ab_n_ic_launcher"
+            android:label="@string/ab_n_app_name"
+            android:theme="@style/ab_n_AppTheme"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L2.Sunshine_L2"
             android:label="SunShine vl2"

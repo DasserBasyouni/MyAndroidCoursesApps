@@ -98,6 +98,15 @@
         <item name="colorPrimaryDark">@color/ab_ma_primary_dark_color</item>
     </style>
 
+
+    <!--Android Basics: Networking Course Apps-->
+    <style name="ab_n_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ab_n_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ab_n_colorPrimaryDark</item>
+        <item name="colorAccent">@color/ab_n_colorAccent</item>
+    </style>
+
+
     <!-- Developing Android Apps Apps Themes. -->
     <style name="daa_ss_ForecastTheme" parent="AppTheme">
         <item name="colorPrimary">@color/colorPrimary</item>
