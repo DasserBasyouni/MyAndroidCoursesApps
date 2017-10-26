@@ -9,6 +9,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature android:name="android.hardware.location.gps" />
 
@@ -428,6 +429,33 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".Courses.AndroidBasics.Networking.Soonami.MainActivity"
+            android:icon="@drawable/ab_n_ic_launcher"
+            android:label="@string/ab_n_app_name"
+            android:theme="@style/adb_c_appTheme"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Courses.AndroidBasics.Networking.DidYouFeelIt.MainActivity"
+            android:label="@string/ab_n_s_app_name"
+            android:theme="@style/ab_n_dyfi_AppTheme"
+            tools:ignore="InnerclassSeparator">
+        </activity>
+
+        <activity android:name=".Courses.AndroidBasics.Networking.Earthquake_L4.EarthquakeActivity"
+            android:icon="@drawable/ab_n_ic_launcher"
+            android:label="@string/ab_n_s_app_name"
+            android:theme="@style/adb_c_appTheme"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L2.Sunshine_L2"

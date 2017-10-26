@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <color name="colorPrimary">#ff1ca8f4</color>
     <color name="colorPrimaryDark">#0288D1</color>
     <color name="colorAccent">#FF4081</color>
@@ -101,4 +101,8 @@
 
     <!-- Text color for the primary location of the earthquake in the list item -->
     <color name="ab_n_textColorEarthquakeLocation">#2B3D4D</color>
+
+    <color name="ab_n_dyfi_colorPrimary">#F57C00</color>
+    <color name="ab_n_dyfi_colorPrimaryDark">#E65100</color>
+    <color name="ab_n_dyfi_colorAccent">#FFCC0000</color>
 </resources>

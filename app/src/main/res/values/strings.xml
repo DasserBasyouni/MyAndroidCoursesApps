@@ -220,4 +220,36 @@
     <string name="ab_ma_tg_cafe_5_rate">4.4 (5 Google reviews)</string>
     <string name="ab_n_app_name">Quake Report</string>
     <string name="ab_n_near_the">Near the</string>
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="ab_n_s_app_name">Soonami</string>
+
+    <!-- Header that goes above the title of the earthquake event [CHAR LIMIT=50] -->
+    <string name="ab_n_s_header_event">Event</string>
+
+    <!-- Header that goes above the date of the earthquake event [CHAR LIMIT=50] -->
+    <string name="ab_n_s_header_date">Date</string>
+
+    <!-- Header that goes above whether or not there was a tsunami alert issued
+         during the earthquake event [CHAR LIMIT=50] -->
+    <string name="ab_n_s_header_tsunami_alert">Tsunami Alert?</string>
+
+    <!-- Text when there was no tsunami alert issued [CHAR LIMIT=50] -->
+    <string name="ab_n_s_alert_no">No</string>
+
+    <!-- Text when there was a tsunami alert issued [CHAR LIMIT=50] -->
+    <string name="ab_n_s_alert_yes">Yes</string>
+
+    <!-- Text when there was a tsunami alert issued [CHAR LIMIT=50] -->
+    <string name="ab_n_s_alert_not_available">Not available</string>
+
+    <string name="ab_n_dyfi_app_name">Did You Feel It?</string>
+
+    <!-- Label for perceived strength value [CHAR LIMIT=40] -->
+    <string name="ab_n_dyfi_perceived_strength">Perceived Strength</string>
+
+    <!-- Number of people who reported perceived strength for an earthquake [CHAR LIMIT=NONE] -->
+    <string name="ab_n_dyfi_num_people_felt_it"><xliff:g id="number" example="10">%s</xliff:g> people felt it</string>
+    <string name="ab_n_eq4_no_views">No earthquakes found.</string>
+    <string name="ab_n_eq4_no_internet">No internet Connection</string>
 </resources>

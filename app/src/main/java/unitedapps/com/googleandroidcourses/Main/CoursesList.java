@@ -287,6 +287,62 @@ public class CoursesList extends Fragment {
         item1.setIndicatorIconRes(R.drawable.m_ic_android);
 
 
+        ExpandingItem item2 = expandingList.createNewItem(R.layout.expanding_layout);
+        ((TextView) item2.findViewById(R.id.title)).setText("Android Basics: Networking");
+        item2.createSubItems(4);
+
+        View subItemZero2 = item2.getSubItemView(0);
+        TextView tv2_2 = subItemZero2.findViewById(R.id.sub_title);
+        tv2_2.setText(getString(R.string.ab_n_app_name) + " (L1)");
+        tv2_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics.
+                        Networking.Earthquake_L1.EarthquakeActivity.class);
+                startActivity(i);
+            }
+        });
+
+        View subItemZero3 = item2.getSubItemView(1);
+        TextView tv2_3 = subItemZero3.findViewById(R.id.sub_title);
+        tv2_3.setText(getString(R.string.ab_n_s_app_name) + " (L2)");
+        tv2_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics.
+                        Networking.Soonami.MainActivity.class);
+                startActivity(i);
+            }
+        });
+
+        View subItemZero4 = item2.getSubItemView(2);
+        TextView tv2_4 = subItemZero4.findViewById(R.id.sub_title);
+        tv2_4.setText(getString(R.string.ab_n_dyfi_app_name) + " (L3)");
+        tv2_4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics.
+                        Networking.DidYouFeelIt.MainActivity.class);
+                startActivity(i);
+            }
+        });
+
+        View subItemZero5 = item2.getSubItemView(3);
+        TextView tv2_5 = subItemZero5.findViewById(R.id.sub_title);
+        tv2_5.setText(getString(R.string.ab_n_app_name) + " (L4)");
+        tv2_5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics.
+                        Networking.Earthquake_L4.EarthquakeActivity.class);
+                startActivity(i);
+            }
+        });
+
+        item2.setIndicatorColorRes(R.color.m_purple);
+        item2.setIndicatorIconRes(R.drawable.m_ic_android);
+
+
         ExpandingItem item3 = expandingList.createNewItem(R.layout.expanding_layout);
         ((TextView) item3.findViewById(R.id.title)).setText("Developing Android Apps");
         item3.createSubItems(10);
@@ -298,7 +354,7 @@ public class CoursesList extends Fragment {
             @Override
             public void onClick(View view) {
                 //Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.DevelopingAndroidApps
-                        //.Sunshine_L1.class);
+                //.Sunshine_L1.class);
                 //startActivity(i);
                 Toast.makeText(getContext(), "This version is under construction", Toast.LENGTH_SHORT).show();
             }
@@ -418,26 +474,6 @@ public class CoursesList extends Fragment {
 
         item3.setIndicatorColorRes(R.color.m_blue);
         item3.setIndicatorIconRes(R.drawable.m_ic_android);
-
-
-        ExpandingItem item2 = expandingList.createNewItem(R.layout.expanding_layout);
-        ((TextView) item2.findViewById(R.id.title)).setText("Android Basics: Networking");
-        item2.createSubItems(1);
-
-        View subItemZero2 = item2.getSubItemView(0);
-        TextView tv2_2 = subItemZero2.findViewById(R.id.sub_title);
-        tv2_2.setText(getString(R.string.ab_n_app_name) + " (L1)");
-        tv2_2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics.
-                        Networking.Earthquake_L1.EarthquakeActivity.class);
-                startActivity(i);
-            }
-        });
-
-        item2.setIndicatorColorRes(R.color.m_purple);
-        item2.setIndicatorIconRes(R.drawable.m_ic_android);
 
 
         ExpandingItem item3_3 = expandingList.createNewItem(R.layout.expanding_layout);

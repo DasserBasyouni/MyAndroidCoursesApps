@@ -109,6 +109,14 @@
         <item name="android:navigationBarColor">@color/ab_n_colorPrimaryDark</item>
     </style>
 
+    <style name="ab_n_dyfi_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ab_n_dyfi_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ab_n_dyfi_colorPrimaryDark</item>
+        <item name="colorAccent">@color/ab_n_dyfi_colorAccent</item>
+        <item name="android:statusBarColor">@color/ab_n_dyfi_colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/ab_n_dyfi_colorPrimaryDark</item>
+    </style>
+
 
     <!-- Developing Android Apps Apps Themes. -->
     <style name="daa_ss_ForecastTheme" parent="AppTheme">
