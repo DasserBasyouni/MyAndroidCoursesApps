@@ -289,7 +289,7 @@ public class CoursesList extends Fragment {
 
         ExpandingItem item2 = expandingList.createNewItem(R.layout.expanding_layout);
         ((TextView) item2.findViewById(R.id.title)).setText("Android Basics: Networking");
-        item2.createSubItems(4);
+        item2.createSubItems(5);
 
         View subItemZero2 = item2.getSubItemView(0);
         TextView tv2_2 = subItemZero2.findViewById(R.id.sub_title);
@@ -329,12 +329,24 @@ public class CoursesList extends Fragment {
 
         View subItemZero5 = item2.getSubItemView(3);
         TextView tv2_5 = subItemZero5.findViewById(R.id.sub_title);
-        tv2_5.setText(getString(R.string.ab_n_app_name) + " (L4)");
+        tv2_5.setText(getString(R.string.ab_n_app_name) + " (L3)");
         tv2_5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics.
                         Networking.Earthquake_L4.EarthquakeActivity.class);
+                startActivity(i);
+            }
+        });
+
+        View subItemZero6 = item2.getSubItemView(4);
+        TextView tv2_6 = subItemZero6.findViewById(R.id.sub_title);
+        tv2_6.setText(getString(R.string.ab_n_bla_app_name) + " (L4 Project)");
+        tv2_6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics.
+                        Networking.BookListingApp.MainActivity.class);
                 startActivity(i);
             }
         });

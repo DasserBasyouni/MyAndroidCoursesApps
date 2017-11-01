@@ -457,6 +457,12 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".Courses.AndroidBasics.Networking.BookListingApp.MainActivity"
+            android:label="@string/ab_n_bla_app_name"
+            android:theme="@style/adb_c_appTheme"
+            tools:ignore="InnerclassSeparator"/>
+
+
         <activity
             android:name=".Courses.DevelopingAndroidApps.Sunshine_L2.Sunshine_L2"
             android:label="SunShine vl2"

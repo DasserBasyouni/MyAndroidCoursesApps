@@ -252,4 +252,12 @@
     <string name="ab_n_dyfi_num_people_felt_it"><xliff:g id="number" example="10">%s</xliff:g> people felt it</string>
     <string name="ab_n_eq4_no_views">No earthquakes found.</string>
     <string name="ab_n_eq4_no_internet">No internet Connection</string>
+
+    <string name="ab_n_bla_app_name">Book Listing App</string>
+    <string name="ab_n_bla_preview">Preview</string>
+    <string name="ab_n_bla_pages_format"><xliff:g id="number_of_pages">%d</xliff:g> Pages</string>
+    <string name="ab_n_bla_book_name_or_author_hint">Book Name, or Author</string>
+    <string name="ab_n_bla_search">Search</string>
+    <string name="ab_n_bla_preform_search_tv">Please prefore a search</string>
+    <string name="ab_n_bla_empty_search">There is no search result for this</string>
 </resources>
