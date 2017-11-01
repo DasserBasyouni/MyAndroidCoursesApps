@@ -6,9 +6,11 @@ import android.content.Loader;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -30,10 +32,11 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     private ListView books_lv;
     private final int BOOKS_LOADER_ID = 444;
     private String mURL = null;
-    ArrayList<BooksDataObject> booksDataObjectArrayList;
-    BooksAdapter booksAdapter;
-    TextView empty_view_tv;
-    ProgressBar searching_pb;
+    private ArrayList<BooksDataObject> booksDataObjectArrayList;
+    private BooksAdapter booksAdapter;
+    private TextView empty_view_tv;
+    private ProgressBar searching_pb;
+    private Parcelable state;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -83,6 +86,18 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         });
     }
 
+    @Override
+    protected void onStop() {
+        state = books_lv.onSaveInstanceState();
+        super.onStop();
+    }
+
+    @Override
+    protected void onResume() {
+        if(state != null)
+            books_lv.onRestoreInstanceState(state);
+        super.onResume();
+    }
 
     @Override
     public Loader<List<BooksDataObject>> onCreateLoader(int i, Bundle bundle) {

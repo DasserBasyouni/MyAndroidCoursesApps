@@ -79,6 +79,8 @@ public class BooksAdapter extends ArrayAdapter<BooksDataObject> {
         return view;
     }
 
+
+
     /**
      * for scaling the bitmap to fit its Height only not Width also
     */
