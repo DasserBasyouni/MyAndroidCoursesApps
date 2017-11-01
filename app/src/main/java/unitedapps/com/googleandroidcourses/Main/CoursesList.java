@@ -353,7 +353,7 @@ public class CoursesList extends Fragment {
 
         View subItemZero7 = item2.getSubItemView(5);
         TextView tv2_7 = subItemZero7.findViewById(R.id.sub_title);
-        tv2_7.setText(getString(R.string.ab_n_qr_app_name) + " (L5 Project)");
+        tv2_7.setText(getString(R.string.ab_n_qr_app_name) + " (L5)");
         tv2_7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
