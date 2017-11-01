@@ -13,4 +13,15 @@
     <declare-styleable name="CustomFont">
         <attr name="fontFamily" format="string" />
     </declare-styleable>
+
+    <string-array name="ab_n_qr4_settings_order_by_labels">
+        <item>@string/ab_n_qr4_settings_order_by_magnitude_label</item>
+        <item>@string/ab_n_qr4_settings_order_by_most_recent_label</item>
+    </string-array>
+
+    <string-array name="ab_n_qr4_settings_order_by_values">
+        <item>@string/ab_n_qr4_settings_order_by_magnitude_value</item>
+        <item>@string/ab_n_qr4_settings_order_by_most_recent_value</item>
+    </string-array>
+
 </resources>

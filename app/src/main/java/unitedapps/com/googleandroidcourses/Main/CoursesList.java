@@ -289,11 +289,11 @@ public class CoursesList extends Fragment {
 
         ExpandingItem item2 = expandingList.createNewItem(R.layout.expanding_layout);
         ((TextView) item2.findViewById(R.id.title)).setText("Android Basics: Networking");
-        item2.createSubItems(5);
+        item2.createSubItems(6);
 
         View subItemZero2 = item2.getSubItemView(0);
         TextView tv2_2 = subItemZero2.findViewById(R.id.sub_title);
-        tv2_2.setText(getString(R.string.ab_n_app_name) + " (L1)");
+        tv2_2.setText(getString(R.string.ab_n_qr_app_name) + " (L1)");
         tv2_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -329,12 +329,12 @@ public class CoursesList extends Fragment {
 
         View subItemZero5 = item2.getSubItemView(3);
         TextView tv2_5 = subItemZero5.findViewById(R.id.sub_title);
-        tv2_5.setText(getString(R.string.ab_n_app_name) + " (L3)");
+        tv2_5.setText(getString(R.string.ab_n_qr_app_name) + " (L3)");
         tv2_5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics.
-                        Networking.Earthquake_L4.EarthquakeActivity.class);
+                        Networking.Earthquake_L3.EarthquakeActivity.class);
                 startActivity(i);
             }
         });
@@ -347,6 +347,18 @@ public class CoursesList extends Fragment {
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics.
                         Networking.BookListingApp.MainActivity.class);
+                startActivity(i);
+            }
+        });
+
+        View subItemZero7 = item2.getSubItemView(5);
+        TextView tv2_7 = subItemZero7.findViewById(R.id.sub_title);
+        tv2_7.setText(getString(R.string.ab_n_qr_app_name) + " (L5 Project)");
+        tv2_7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), unitedapps.com.googleandroidcourses.Courses.AndroidBasics.
+                        Networking.Earthquake_L5.EarthquakeActivity.class);
                 startActivity(i);
             }
         });

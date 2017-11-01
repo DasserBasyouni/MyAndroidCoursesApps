@@ -1,4 +1,4 @@
-package unitedapps.com.googleandroidcourses.Courses.AndroidBasics.Networking.Earthquake_L4;
+package unitedapps.com.googleandroidcourses.Courses.AndroidBasics.Networking.Earthquake_L3;
 
 /**
    Created by dasse on 22-Oct-17.

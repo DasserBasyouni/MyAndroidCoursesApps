@@ -1,4 +1,4 @@
-package unitedapps.com.googleandroidcourses.Courses.AndroidBasics.Networking.Earthquake_L4;
+package unitedapps.com.googleandroidcourses.Courses.AndroidBasics.Networking.Earthquake_L3;
 
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;

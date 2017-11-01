@@ -218,7 +218,7 @@
     <string name="ab_ma_tg_cafe_5_name">Cilantro Café</string>
     <string name="ab_ma_tg_cafe_5_location">Ezbet El-Nozha, Qism Sidi Gabir, Alexandria Governorate</string>
     <string name="ab_ma_tg_cafe_5_rate">4.4 (5 Google reviews)</string>
-    <string name="ab_n_app_name">Quake Report</string>
+    <string name="ab_n_qr_app_name">Quake Report</string>
     <string name="ab_n_near_the">Near the</string>
 
     <!-- Title for the application. [CHAR LIMIT=12] -->
@@ -260,4 +260,26 @@
     <string name="ab_n_bla_search">Search</string>
     <string name="ab_n_bla_preform_search_tv">Please preform a search</string>
     <string name="ab_n_bla_empty_search">There is no search result for this</string>
+
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="ab_n_qr4_settings_title">Earthquake Settings</string>
+
+    <!-- Strings For Minimum Magnitude Preference [CHAR LIMIT=30] -->
+    <string name="ab_n_qr4_settings_min_magnitude_label">Minimum Magnitude</string>
+    <string name="ab_n_qr4_settings_min_magnitude_key" translatable="false">min_magnitude</string>
+    <string name="ab_n_qr4_settings_min_magnitude_default" translatable="false">6</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="ab_n_qr4_settings_order_by_label">Order By</string>
+    <string name="ab_n_qr4_settings_order_by_key" translatable="false">order_by</string>
+    <string name="ab_n_qr4_settings_order_by_default" translatable="false">@string/ab_n_qr4_settings_order_by_magnitude_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="ab_n_qr4_settings_order_by_magnitude_label">Magnitude</string>
+    <string name="ab_n_qr4_settings_order_by_magnitude_value" translatable="false">magnitude</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="ab_n_qr4_settings_order_by_most_recent_label">Most Recent</string>
+    <string name="ab_n_qr4_settings_order_by_most_recent_value" translatable="false">time</string>
+
 </resources>

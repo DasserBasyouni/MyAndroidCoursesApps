@@ -72,7 +72,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         });
 
         if (getLoaderManager().getLoader(BOOKS_LOADER_ID) != null && getLoaderManager().getLoader(BOOKS_LOADER_ID).isStarted()) {
-            Log.d("Z_loader", String.valueOf(getLoaderManager().getLoader(BOOKS_LOADER_ID).isStarted()));
             mURL = "https://www.googleapis.com/books/v1/volumes?q=" +
                     getSearchFormat(book_search_et.getText().toString()) +
                     "=handleResponse";
@@ -96,14 +95,12 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     @Override
     public Loader<List<BooksDataObject>> onCreateLoader(int i, Bundle bundle) {
-        Log.d("Z_link", mURL);
         return new BooksLoader(this, mURL);
     }
 
     @Override
     public void onLoadFinished(Loader<List<BooksDataObject>> loader, List<BooksDataObject> booksDataObjects) {
         books_lv.setVisibility(View.VISIBLE);
-        Log.d("Z_", "loaded");
         booksDataObjectArrayList.clear();
 
         if (booksDataObjects != null && !booksDataObjects.isEmpty())

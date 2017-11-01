@@ -26,6 +26,7 @@ public class EarthquakeLoader extends AsyncTaskLoader<List<EarthquakeDataObject>
     EarthquakeLoader(Context context, String REPORT_URL) {
         super(context);
         mURL = REPORT_URL;
+        Log.d("Z_here", "4");
     }
 
     @Override
@@ -41,14 +42,12 @@ public class EarthquakeLoader extends AsyncTaskLoader<List<EarthquakeDataObject>
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
-
         String jsonResponse = null;
         try {
             jsonResponse = makeHttpRequest(url);
         } catch (IOException e) {
-            Log.e("Z_" + LOG_TAG, "Error closing input stream", e);
+            Log.e(LOG_TAG, "Error closing input stream", e);
         }
-
         return QueryUtils.extractEarthquakes(jsonResponse);
     }
 
@@ -74,11 +73,12 @@ public class EarthquakeLoader extends AsyncTaskLoader<List<EarthquakeDataObject>
             if (urlConnection.getResponseCode() == 200) {
                 inputStream = urlConnection.getInputStream();
                 jsonResponse = readFromStream(inputStream);
+                Log.e( LOG_TAG, "response code: " + urlConnection.getResponseCode());
             } else {
-                Log.e("Z_" + LOG_TAG, "Error response code: " + urlConnection.getResponseCode());
+                Log.e(LOG_TAG, "Error response code: " + urlConnection.getResponseCode());
             }
         } catch (IOException e) {
-            Log.e("Z_" + LOG_TAG, "Problem retrieving the earthquake JSON results.", e);
+            Log.e(LOG_TAG, "Problem retrieving the earthquake JSON results.", e);
         } finally {
             if (urlConnection != null) {
                 urlConnection.disconnect();
@@ -87,6 +87,7 @@ public class EarthquakeLoader extends AsyncTaskLoader<List<EarthquakeDataObject>
                 inputStream.close();
             }
         }
+
         return jsonResponse;
     }
 

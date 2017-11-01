@@ -420,7 +420,7 @@
         <!--Android Basics: Networking Course Apps-->
         <activity android:name=".Courses.AndroidBasics.Networking.Earthquake_L1.EarthquakeActivity"
             android:icon="@drawable/ab_n_ic_launcher"
-            android:label="@string/ab_n_app_name"
+            android:label="@string/ab_n_qr_app_name"
             android:theme="@style/ab_n_AppTheme"
             tools:ignore="InnerclassSeparator">
             <intent-filter>
@@ -431,7 +431,7 @@
 
         <activity android:name=".Courses.AndroidBasics.Networking.Soonami.MainActivity"
             android:icon="@drawable/ab_n_ic_launcher"
-            android:label="@string/ab_n_app_name"
+            android:label="@string/ab_n_qr_app_name"
             android:theme="@style/adb_c_appTheme"
             tools:ignore="InnerclassSeparator">
             <intent-filter>
@@ -441,14 +441,14 @@
         </activity>
 
         <activity android:name=".Courses.AndroidBasics.Networking.DidYouFeelIt.MainActivity"
-            android:label="@string/ab_n_s_app_name"
+            android:label="@string/ab_n_dyfi_app_name"
             android:theme="@style/ab_n_dyfi_AppTheme"
             tools:ignore="InnerclassSeparator">
         </activity>
 
-        <activity android:name=".Courses.AndroidBasics.Networking.Earthquake_L4.EarthquakeActivity"
+        <activity android:name=".Courses.AndroidBasics.Networking.Earthquake_L3.EarthquakeActivity"
             android:icon="@drawable/ab_n_ic_launcher"
-            android:label="@string/ab_n_s_app_name"
+            android:label="@string/ab_n_qr_app_name"
             android:theme="@style/adb_c_appTheme"
             tools:ignore="InnerclassSeparator">
             <intent-filter>
@@ -461,6 +461,25 @@
             android:label="@string/ab_n_bla_app_name"
             android:theme="@style/adb_c_appTheme"
             tools:ignore="InnerclassSeparator"/>
+
+        <activity android:name=".Courses.AndroidBasics.Networking.Earthquake_L5.EarthquakeActivity"
+            android:icon="@drawable/ab_n_ic_launcher"
+            android:label="@string/ab_n_qr_app_name"
+            android:theme="@style/adb_c_appTheme"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Courses.AndroidBasics.Networking.Earthquake_L5.SettingsActivity"
+            android:label="@string/title_activity_settings">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Courses.AndroidBasics.Networking.Earthquake_L5.EarthquakeActivity"/>
+        </activity>
 
 
         <activity
