@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package unitedapps.com.googleandroidcourses.Courses.AndroidBasics.Networking.Earthquake_L4;
+package unitedapps.com.googleandroidcourses.Courses.AndroidBasics.Networking.Earthquake_L5;
 
 import android.app.LoaderManager;
 import android.content.Context;
@@ -102,7 +102,6 @@ public class EarthquakeActivity extends AppCompatActivity implements LoaderManag
         // Clear the adapter of previous earthquake data
         earthquakeDataObjectsMian.clear();
 
-        Log.d("Z_", "loaded 2");
         // If there is a valid list of {@link Earthquake}s, then add them to the adapter's
         // data set. This will trigger the ListView to update.
         if (earthquakeDataObjects != null && !earthquakeDataObjects.isEmpty()) {

@@ -1,8 +1,9 @@
-package unitedapps.com.googleandroidcourses.Courses.AndroidBasics.Networking.BookListingApp;
+package unitedapps.com.googleandroidcourses.Courses.AndroidBasics.Networking.Earthquake_L5;
 
 import android.content.AsyncTaskLoader;
 import android.content.Context;
 import android.util.Log;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,22 +12,20 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.Charset;
-import java.util.ArrayList;
 import java.util.List;
 
-
 /**
-   Created by dasse on 28-Oct-17.
+   Created by dasse on 26-Oct-17.
  */
 
-public class BooksLoader extends AsyncTaskLoader<List<BooksDataObject>> {
+public class EarthquakeLoader extends AsyncTaskLoader<List<EarthquakeDataObject>> {
 
-    public static final String LOG_TAG = BooksLoader.class.getName();
+    public static final String LOG_TAG = EarthquakeLoader.class.getName();
     private String mURL;
 
-    BooksLoader(Context context, String mURL) {
+    EarthquakeLoader(Context context, String REPORT_URL) {
         super(context);
-        this.mURL = mURL;
+        mURL = REPORT_URL;
     }
 
     @Override
@@ -35,7 +34,7 @@ public class BooksLoader extends AsyncTaskLoader<List<BooksDataObject>> {
     }
 
     @Override
-    public ArrayList<BooksDataObject> loadInBackground() {
+    public List<EarthquakeDataObject> loadInBackground() {
         URL url = null;
         try {
             url = new URL(mURL);
@@ -50,7 +49,7 @@ public class BooksLoader extends AsyncTaskLoader<List<BooksDataObject>> {
             Log.e("Z_" + LOG_TAG, "Error closing input stream", e);
         }
 
-        return BooksQueryUtils.extractBooksData(jsonResponse);
+        return QueryUtils.extractEarthquakes(jsonResponse);
     }
 
     private String makeHttpRequest(URL url) throws IOException {
@@ -104,4 +103,5 @@ public class BooksLoader extends AsyncTaskLoader<List<BooksDataObject>> {
         }
         return output.toString();
     }
+
 }

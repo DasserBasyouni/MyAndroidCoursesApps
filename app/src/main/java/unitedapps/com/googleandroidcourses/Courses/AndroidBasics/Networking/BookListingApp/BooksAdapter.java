@@ -108,7 +108,6 @@ public class BooksAdapter extends ArrayAdapter<BooksDataObject> {
 
         int height = bitmap != null ? bitmap.getHeight() : 0;
         int bounding = dpToPx(view.getDrawable().getIntrinsicHeight());
-        Log.d("Z_here", view.getDrawable().getIntrinsicHeight() + " + " + view.getMeasuredHeight());
         Log.i("Test", "original width = " + Integer.toString(width));
         Log.i("Test", "original height = " + Integer.toString(height));
         Log.i("Test", "bounding = " + Integer.toString(bounding));

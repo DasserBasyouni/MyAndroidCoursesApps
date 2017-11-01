@@ -19,7 +19,7 @@ import java.util.ArrayList;
  */
 
 class BooksQueryUtils {
-    static Object extractBooksData(String jsonResponse) {
+    static ArrayList<BooksDataObject> extractBooksData(String jsonResponse) {
 
         if (TextUtils.isEmpty(jsonResponse)) {
             return null;

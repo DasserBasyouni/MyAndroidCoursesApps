@@ -8,7 +8,6 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.annotation.Nullable;
-import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -24,7 +23,7 @@ import java.util.List;
 import unitedapps.com.googleandroidcourses.R;
 
 /**
-   Created by dasse on 27-Oct-17.
+ * Created by dasse on 27-Oct-17.
  */
 
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<List<BooksDataObject>> {
@@ -36,7 +35,8 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     private BooksAdapter booksAdapter;
     private TextView empty_view_tv;
     private ProgressBar searching_pb;
-    private Parcelable state;
+    private Parcelable state, state1;
+    private EditText book_search_et;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -52,62 +52,63 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
         books_lv.setAdapter(booksAdapter);
 
-        final TextInputLayout book_search_til = findViewById(R.id.ab_n_bla_book_search_til);
+        book_search_et = findViewById(R.id.ab_n_bla_book_search_et);
         Button search_btn = findViewById(R.id.ab_n_bla_search_btn);
         search_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EditText getEditText = book_search_til.getEditText();
-                if(getEditText != null) {
+                if (haveInternetConnection()) {
+                    empty_view_tv.setVisibility(View.GONE);
+                    mURL = "https://www.googleapis.com/books/v1/volumes?q=" +
+                            getSearchFormat(book_search_et.getText().toString()) +
+                            "=handleResponse";
+                    searching_pb.setVisibility(View.VISIBLE);
+                    getLoaderManager().initLoader(BOOKS_LOADER_ID, null, MainActivity.this);
 
-                    ConnectivityManager cm = (ConnectivityManager) getApplicationContext()
-                            .getSystemService(Context.CONNECTIVITY_SERVICE);
-                    assert cm != null;
-                    NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
-
-                    // this if for checking internet connection
-                    if (activeNetwork != null && activeNetwork.isConnectedOrConnecting()) {
-                        empty_view_tv.setVisibility(View.GONE);
-                        mURL = "https://www.googleapis.com/books/v1/volumes?q=" +
-                                getSearchFormat(getEditText.getText().toString()) +
-                                "=handleResponse";
-                        searching_pb.setVisibility(View.VISIBLE);
-                        getLoaderManager().initLoader(BOOKS_LOADER_ID, null, MainActivity.this);
-                    }else {
-                        empty_view_tv.setText(getString(R.string.ab_n_eq4_no_internet));
-                    }
+                } else {
+                    empty_view_tv.setText(getString(R.string.ab_n_eq4_no_internet));
                 }
             }
-
-            private String getSearchFormat(String UserInputData) {
-                // this replace space with "+" sign to be able to use it in the url
-                return (UserInputData.trim()).replace(" ", "+");
-            }
         });
+
+        if (getLoaderManager().getLoader(BOOKS_LOADER_ID) != null && getLoaderManager().getLoader(BOOKS_LOADER_ID).isStarted()) {
+            Log.d("Z_loader", String.valueOf(getLoaderManager().getLoader(BOOKS_LOADER_ID).isStarted()));
+            mURL = "https://www.googleapis.com/books/v1/volumes?q=" +
+                    getSearchFormat(book_search_et.getText().toString()) +
+                    "=handleResponse";
+            getLoaderManager().initLoader(BOOKS_LOADER_ID, null, MainActivity.this);
+        }
     }
 
-    @Override
-    protected void onStop() {
-        state = books_lv.onSaveInstanceState();
-        super.onStop();
+    private String getSearchFormat(String UserInputData) {
+        // this replace space with "+" sign to be able to use it in the url
+        return (UserInputData.trim()).replace(" ", "+");
     }
 
-    @Override
-    protected void onResume() {
-        if(state != null)
-            books_lv.onRestoreInstanceState(state);
-        super.onResume();
+    public boolean haveInternetConnection() {
+        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetwork = null;
+        if (cm != null) {
+            activeNetwork = cm.getActiveNetworkInfo();
+        }
+        return activeNetwork != null && activeNetwork.isConnectedOrConnecting();
     }
 
     @Override
     public Loader<List<BooksDataObject>> onCreateLoader(int i, Bundle bundle) {
+        Log.d("Z_link", mURL);
         return new BooksLoader(this, mURL);
     }
 
     @Override
     public void onLoadFinished(Loader<List<BooksDataObject>> loader, List<BooksDataObject> booksDataObjects) {
+        books_lv.setVisibility(View.VISIBLE);
+        Log.d("Z_", "loaded");
         booksDataObjectArrayList.clear();
-        booksDataObjectArrayList.addAll(booksDataObjects);
+
+        if (booksDataObjects != null && !booksDataObjects.isEmpty())
+            booksDataObjectArrayList.addAll(booksDataObjects);
+
         searching_pb.setVisibility(View.GONE);
         empty_view_tv.setText(getString(R.string.ab_n_bla_empty_search));
         books_lv.setEmptyView(empty_view_tv);
