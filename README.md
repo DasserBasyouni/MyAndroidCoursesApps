@@ -6,6 +6,8 @@ Here are screenshot of app's second and third stages of design and user interfac
  
  <img src="/Screenshots/AppStages.png" width="1080">
  
+- **I will update this README.md after every course and the code it self will be updated after every lesson.**
+ 
  # Screenshots Of Apps at Latest Versions
  Note: 
  - The theme colors provided not all within the courses
