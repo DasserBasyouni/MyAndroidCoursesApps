@@ -88,7 +88,7 @@ public class pm2_MainFragment extends Fragment implements LoaderManager.LoaderCa
 
             @Override
             public void onReceive(Context context, Intent intent) {
-                Log.i("Z_", "recived yea");
+                Log.i("Z_", "received yea");
                 restartLoader();
             }
         };

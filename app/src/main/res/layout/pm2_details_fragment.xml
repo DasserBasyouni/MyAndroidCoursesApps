@@ -23,7 +23,7 @@
                 android:background="@color/pm2_colorPrimary"
                 android:lines="1"
                 android:padding="36dp"
-                android:text="Chappie"
+                tools:text="Chappie"
                 android:textColor="@color/cardview_light_background"
                 android:textSize="48sp" />
 
@@ -44,14 +44,14 @@
                     app:srcCompat="@drawable/after_cookie" />
 
                 <TextView
-                    android:id="@+id/pm2_rekeaseDate_tv_wt"
+                    android:id="@+id/pm2_releaseDate_tv_wt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignLeft="@+id/pm2_runtime_tv"
                     android:layout_alignParentTop="true"
                     android:layout_alignStart="@+id/pm2_runtime_tv"
                     android:layout_marginTop="26dp"
-                    android:text="2015"
+                    tools:text="2015"
                     android:textSize="24sp" />
 
                 <TextView
@@ -64,11 +64,11 @@
                     android:layout_marginTop="17dp"
                     android:layout_toEndOf="@+id/pm2_thumbnail_iv"
                     android:layout_toRightOf="@+id/pm2_thumbnail_iv"
-                    android:text="8.1/10"
+                    tools:text="8.1/10"
                     app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintLeft_toLeftOf="@+id/pm2_rekeaseDate_tv_wt"
-                    app:layout_constraintRight_toRightOf="@+id/pm2_rekeaseDate_tv_wt"
-                    app:layout_constraintTop_toBottomOf="@+id/pm2_rekeaseDate_tv_wt" />
+                    app:layout_constraintLeft_toLeftOf="@+id/pm2_releaseDate_tv_wt"
+                    app:layout_constraintRight_toRightOf="@+id/pm2_releaseDate_tv_wt"
+                    app:layout_constraintTop_toBottomOf="@+id/pm2_releaseDate_tv_wt" />
 
                 <TextView
                     android:id="@+id/pm2_runtime_tv"
@@ -76,12 +76,12 @@
                     android:layout_height="wrap_content"
                     android:layout_alignLeft="@+id/pm2_userRate_tv"
                     android:layout_alignStart="@+id/pm2_userRate_tv"
-                    android:layout_below="@+id/pm2_rekeaseDate_tv_wt"
+                    android:layout_below="@+id/pm2_releaseDate_tv_wt"
                     android:layout_marginTop="14dp"
-                    android:text="120min"
+                    tools:text="120min"
                     android:textSize="16sp"
-                    app:layout_constraintLeft_toLeftOf="@+id/pm2_rekeaseDate_tv_wt"
-                    app:layout_constraintTop_toBottomOf="@+id/pm2_rekeaseDate_tv_wt" />
+                    app:layout_constraintLeft_toLeftOf="@+id/pm2_releaseDate_tv_wt"
+                    app:layout_constraintTop_toBottomOf="@+id/pm2_releaseDate_tv_wt" />
 
                 <Button
                     android:id="@+id/pm2_fav_btn"
@@ -94,7 +94,7 @@
                     android:layout_marginStart="26dp"
                     android:layout_marginTop="19dp"
                     android:background="@color/pm2_colorPrimaryLight"
-                    android:text="Make As\nFavorite"
+                    tools:text="Make As\nFavorite"
                     android:textColor="@color/cardview_dark_background"
                     android:textSize="12sp"
                     app:layout_constraintLeft_toLeftOf="@+id/pm2_userRate_tv"
@@ -108,7 +108,7 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginTop="16dp"
-                    android:text="overview" />
+                    tools:text="overview" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -165,6 +165,7 @@
         android:layout_margin="14dp"
         android:src="@drawable/ic_rate_review_24dp"
         app:layout_anchor="@id/pm2_trailer_lv"
-        app:layout_anchorGravity="bottom|right|end" />
+        app:layout_anchorGravity="bottom|right|end"
+        android:focusable="true" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -62,7 +62,7 @@ public class pm2_DetailsFragment extends Fragment implements LoaderManager.Loade
 
         pm_title_tv = (TextView) rootView.findViewById(R.id.pm2_title_tv);
         pm_plotSynopsis_tv = (TextView) rootView.findViewById(R.id.pm2_plotSynopsis_tv);
-        pm_rekeaseDate_tv = (TextView) rootView.findViewById(R.id.pm2_rekeaseDate_tv_wt);
+        pm_rekeaseDate_tv = (TextView) rootView.findViewById(R.id.pm2_releaseDate_tv_wt);
         pm_userRate_tv = (TextView) rootView.findViewById(R.id.pm2_userRate_tv);
         pm_thumbnail_iv = (ImageView) rootView.findViewById(R.id.pm2_thumbnail_iv);
         pm2_runtime_tv = (TextView) rootView.findViewById(R.id.pm2_runtime_tv);

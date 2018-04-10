@@ -84,15 +84,15 @@ public class ss9_DetailFragment extends Fragment implements LoaderManager.Loader
         }
 
         View view = inflater.inflate(R.layout.ss9_fragment_detail, container, false);
-        tv1 = (TextView) view.findViewById(R.id.ss9_detail_low_tv);
-        tv2 = (TextView) view.findViewById(R.id.ss9_detail_forecast_tv);
-        tv3 = (TextView) view.findViewById(R.id.ss9_detail_date_tv);
-        tv4 = (TextView) view.findViewById(R.id.ss9_detail_high_tv);
-        tv5 = (TextView) view.findViewById(R.id.ss9_detail_humidity_tv);
-        tv6 = (TextView) view.findViewById(R.id.ss9_detail_pressure_tv);
-        tv7 = (TextView) view.findViewById(R.id.ss9_detail_wind_tv);
-        iv = (ImageView) view.findViewById(R.id.ss9_detail_icon);
-        ss9_WindView = (ss9_WindView) view.findViewById(R.id.ss9_WindView);
+        tv1 = view.findViewById(R.id.ss9_detail_low_tv);
+        tv2 = view.findViewById(R.id.ss9_detail_forecast_tv);
+        tv3 = view.findViewById(R.id.ss9_detail_date_tv);
+        tv4 = view.findViewById(R.id.ss9_detail_high_tv);
+        tv5 = view.findViewById(R.id.ss9_detail_humidity_tv);
+        tv6 = view.findViewById(R.id.ss9_detail_pressure_tv);
+        tv7 = view.findViewById(R.id.ss9_detail_wind_tv);
+        iv = view.findViewById(R.id.ss9_detail_icon);
+        ss9_WindView = view.findViewById(R.id.ss9_WindView);
 
         return view;
     }

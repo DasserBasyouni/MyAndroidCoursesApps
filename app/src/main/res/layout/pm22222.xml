@@ -17,7 +17,7 @@
         android:layout_marginTop="15dp" />
 
     <TextView
-        android:id="@+id/pm2_rekeaseDate_tv_wt"
+        android:id="@+id/pm2_releaseDate_tv_wt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2015"
@@ -33,9 +33,9 @@
         android:layout_height="wrap_content"
         android:text="8.1/10"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="@+id/pm2_rekeaseDate_tv_wt"
-        app:layout_constraintRight_toRightOf="@+id/pm2_rekeaseDate_tv_wt"
-        app:layout_constraintTop_toBottomOf="@+id/pm2_rekeaseDate_tv_wt"
+        app:layout_constraintLeft_toLeftOf="@+id/pm2_releaseDate_tv_wt"
+        app:layout_constraintRight_toRightOf="@+id/pm2_releaseDate_tv_wt"
+        app:layout_constraintTop_toBottomOf="@+id/pm2_releaseDate_tv_wt"
         android:layout_marginLeft="39dp"
         android:layout_marginStart="39dp"
         android:layout_below="@+id/pm2_runtime_tv"
@@ -50,9 +50,9 @@
         android:layout_marginTop="14dp"
         android:textSize="16sp"
         android:text="120min"
-        app:layout_constraintLeft_toLeftOf="@+id/pm2_rekeaseDate_tv_wt"
-        app:layout_constraintTop_toBottomOf="@+id/pm2_rekeaseDate_tv_wt"
-        android:layout_below="@+id/pm2_rekeaseDate_tv_wt"
+        app:layout_constraintLeft_toLeftOf="@+id/pm2_releaseDate_tv_wt"
+        app:layout_constraintTop_toBottomOf="@+id/pm2_releaseDate_tv_wt"
+        android:layout_below="@+id/pm2_releaseDate_tv_wt"
         android:layout_alignLeft="@+id/pm2_userRate_tv"
         android:layout_alignStart="@+id/pm2_userRate_tv" />
 
