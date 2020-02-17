@@ -18,7 +18,7 @@ Here are screenshot of app's second and third stages of design and user interfac
 | Happy Birthday Card  | [Android Development for Beginners](https://classroom.udacity.com/courses/ud837) | <img src="/Screenshots/HappyBirthdayCard.png" width="240"> |
 | Just Java  | [Android Development for Beginners](https://classroom.udacity.com/courses/ud837)  | <img src="/Screenshots/JustJava.png" width="240">  |
 | Count Counter  | [Android Development for Beginners](https://classroom.udacity.com/courses/ud837)  | <img src="/Screenshots/CourtCounter.png" width="240">  |
-| Cookiies  | [Android Development for Beginners](https://classroom.udacity.com/courses/ud837)  | <img src="/Screenshots/Cookies.png" width="240">  |
+| Cookies  | [Android Development for Beginners](https://classroom.udacity.com/courses/ud837)  | <img src="/Screenshots/Cookies.png" width="240">  |
 | Menu App  | [Android Development for Beginners](https://classroom.udacity.com/courses/ud837)  | <img src="/Screenshots/Menu.png" width="240">  |
 | My Card App  | [Android Basics: User Interface](https://classroom.udacity.com/courses/ud834)  | <img src="/Screenshots/MyCardApp.png" width="240">  |
 | Business Detauks Card  | [Android Basics: User Interface](https://classroom.udacity.com/courses/ud834)  | <img src="/Screenshots/BusinessDetailsCard.png" width="240">  |
